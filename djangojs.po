@@ -378,11 +378,11 @@ msgstr "У этой категории есть новые публикации.
 
 #: .\static\misago\js\misago.js:1
 msgid "This category is empty. No threads were posted within it so far."
-msgstr "Эта категория пуста. До сих пор не было тредов опубликованных внутри неё."
+msgstr "Эта категория пуста. До сих пор не было тем опубликованных внутри неё."
 
 #: .\static\misago\js\misago.js:1
 msgid "This category is private. You can see only your own threads within it."
-msgstr "Эта категория приватная. Вы можете посмотреть только свои собственные треды внутри неё."
+msgstr "Эта категория приватная. Вы можете посмотреть только свои собственные темы внутри неё."
 
 #: .\static\misago\js\misago.js:1
 msgid "This category is protected. You can't browse it's contents."
@@ -391,8 +391,8 @@ msgstr "Эта категория защищена. Вы не можете пр�
 #: .\static\misago\js\misago.js:1 .\static\misago\js\misago.js:20
 msgid "%(threads)s thread"
 msgid_plural "%(threads)s threads"
-msgstr[0] "%(threads)s тред."
-msgstr[1] "%(threads)s треды."
+msgstr[0] "%(threads)s тем."
+msgstr[1] "%(threads)s темы."
 
 #: .\static\misago\js\misago.js:1 .\static\misago\js\misago.js:10
 #: .\static\misago\js\misago.js:20
@@ -618,7 +618,7 @@ msgstr "Объединить опросы"
 
 #: .\static\misago\js\misago.js:4
 msgid "Select poll to use in merged thread. Other polls will be deleted."
-msgstr "Выберите опрос, чтобы использовать его в объединённом треде. Другие опросы будут удалены."
+msgstr "Выберите опрос, чтобы использовать его в объединённом теме. Другие опросы будут удалены."
 
 #: .\static\misago\js\misago.js:4 .\static\misago\js\misago.js:16
 msgid "Poll"
@@ -741,7 +741,7 @@ msgstr "Показать моё присутствие другим пользо
 
 #: .\static\misago\js\misago.js:4
 msgid "Private thread invitations"
-msgstr "Приватное приглашения треда"
+msgstr "Приватное приглашения тема"
 
 #: .\static\misago\js\misago.js:4
 msgid "Automatic subscriptions"
@@ -749,11 +749,11 @@ msgstr "Автоматические подписки"
 
 #: .\static\misago\js\misago.js:4
 msgid "Threads I start"
-msgstr "Треды, что я начал"
+msgstr "темы, что я начал"
 
 #: .\static\misago\js\misago.js:4
 msgid "Threads I reply to"
-msgstr "Треды, где я ответил"
+msgstr "темы, где я ответил"
 
 #: .\static\misago\js\misago.js:4 .\static\misago\js\misago.js:5
 msgid "Fill out all fields."
@@ -801,19 +801,19 @@ msgstr "Изменить забытый пароль"
 
 #: .\static\misago\js\misago.js:5
 msgid "You have left this thread."
-msgstr "Вы покинули этот тред."
+msgstr "Вы покинули этот тем."
 
 #: .\static\misago\js\misago.js:5
 msgid "%(user)s has been removed from this thread."
-msgstr "%(user)s был удалён из этого треда."
+msgstr "%(user)s был удалён из этого тема."
 
 #: .\static\misago\js\misago.js:5
 msgid "%(user)s has been made new thread owner."
-msgstr "$(user)s сделал нового владельца треда."
+msgstr "$(user)s сделал нового владельца тема."
 
 #: .\static\misago\js\misago.js:5
 msgid "Thread owner"
-msgstr "Пладелец треда"
+msgstr "Пладелец тема"
 
 #: .\static\misago\js\misago.js:5
 msgid "See profile"
@@ -821,11 +821,11 @@ msgstr "Посмотреть профиль"
 
 #: .\static\misago\js\misago.js:5
 msgid "Are you sure you want to take over this thread?"
-msgstr "Вы уверены, что вы хотете овладеть этим тредом?"
+msgstr "Вы уверены, что вы хотете овладеть этим темом?"
 
 #: .\static\misago\js\misago.js:5
 msgid "Are you sure you want to change thread owner to %(user)s?"
-msgstr "Вы уверены, что хотите сделать %(user)s владельцем треда?"
+msgstr "Вы уверены, что хотите сделать %(user)s владельцем тема?"
 
 #: .\static\misago\js\misago.js:5
 msgid "Make owner"
@@ -833,21 +833,21 @@ msgstr "Назначить владельца"
 
 #: .\static\misago\js\misago.js:5
 msgid "Are you sure you want to leave this thread?"
-msgstr "Вы уверены, что хотите покинуть этот тред?"
+msgstr "Вы уверены, что хотите покинуть этот тем?"
 
 #: .\static\misago\js\misago.js:5
 msgid "Are you sure you want to remove %(user)s from this thread?"
-msgstr "Вы уверены, что хотите удалить %(user)s из этого треда?"
+msgstr "Вы уверены, что хотите удалить %(user)s из этого тема?"
 
 #: .\static\misago\js\misago.js:5
 msgid "Leave thread"
-msgstr "Покинуть тред"
+msgstr "Покинуть тем"
 
 #: .\static\misago\js\misago.js:5
 msgid "This thread has %(users)s participant."
 msgid_plural "This thread has %(users)s participants."
-msgstr[0] "Этот тред принадлежит участнику - %(users)s."
-msgstr[1] "Этот тред принадлежит участникам - %(users)s."
+msgstr[0] "Этот тем принадлежит участнику - %(users)s."
+msgstr[1] "Этот тем принадлежит участникам - %(users)s."
 
 #: .\static\misago\js\misago.js:5
 msgid "Entered password is very weak."
@@ -915,7 +915,7 @@ msgstr "Вы уверены, что хотите удалить опрос?"
 
 #: .\static\misago\js\misago.js:5
 msgid "Poll has been edited."
-msgstr "Опрос был отредактирован."
+msgstr "Опрос был отемактирован."
 
 #: .\static\misago\js\misago.js:5
 msgid "Poll has been posted."
@@ -1141,7 +1141,7 @@ msgstr "Вы должны ввести сообщение."
 
 #: .\static\misago\js\misago.js:7
 msgid "Reply has been edited."
-msgstr "Ответ был отредактирован."
+msgstr "Ответ был отемактирован."
 
 #: .\static\misago\js\misago.js:7
 msgid "Edit reply"
@@ -1161,7 +1161,7 @@ msgstr "Ответ на публикацию"
 
 #: .\static\misago\js\misago.js:7
 msgid "Are you sure you want to discard private thread?"
-msgstr "Вы уверены, что хотите удалить приватный тред?"
+msgstr "Вы уверены, что хотите удалить приватный тем?"
 
 #: .\static\misago\js\misago.js:7
 msgid "You have to enter at least one recipient."
@@ -1170,11 +1170,11 @@ msgstr "Вы должны ввести по крайне мере одного �
 #: .\static\misago\js\misago.js:7 .\static\misago\js\misago.js:8
 #: .\static\misago\js\misago.js:14
 msgid "You have to enter thread title."
-msgstr "Вы должны ввести заголовок треда."
+msgstr "Вы должны ввести заголовок тема."
 
 #: .\static\misago\js\misago.js:7 .\static\misago\js\misago.js:8
 msgid "Your thread has been posted."
-msgstr "Ваш тред был опубликован."
+msgstr "Ваша тема была опубликована."
 
 #: .\static\misago\js\misago.js:8
 msgid "Comma separated list of user names, eg.: Danny, Lisa"
@@ -1183,15 +1183,15 @@ msgstr "Запятая делящая список имён пользовате
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:9
 #: .\static\misago\js\misago.js:15 .\static\misago\js\misago.js:18
 msgid "Thread title"
-msgstr "Заголовок треда"
+msgstr "Заголовок тема"
 
 #: .\static\misago\js\misago.js:8
 msgid "Post thread"
-msgstr "Опубликовать тред"
+msgstr "Опубликовать тему"
 
 #: .\static\misago\js\misago.js:8
 msgid "Are you sure you want to discard thread?"
-msgstr "Вы уверены, что вы хотите удалить тред?"
+msgstr "Вы уверены, что вы хотите удалить тем?"
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:14
 #: .\static\misago\js\misago.js:16
@@ -1235,10 +1235,10 @@ msgid_plural ""
 "Thread title should be at least %(limit_value)s characters long (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Заголовок треда должен быть по крйне мере %(limit_value)s символа диной "
+"Заголовок тема должен быть по крйне мере %(limit_value)s символа диной "
 "(он имеет %(show_value)s)."
 msgstr[1] ""
-"Заголовок треда должен быть по крйне мере %(limit_value)s символов диной "
+"Заголовок тема должен быть по крйне мере %(limit_value)s символов диной "
 "(он имеет %(show_value)s)."
 
 #: .\static\misago\js\misago.js:8
@@ -1249,10 +1249,10 @@ msgid_plural ""
 "Thread title cannot be longer than %(limit_value)s characters (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Заголовок треда не может быть длинее, чем %(limit_value)s символа "
+"Заголовок тема не может быть длинее, чем %(limit_value)s символа "
 "(он имеет %(show_value)s)."
 msgstr[1] ""
-"Заголовок треда не может быть длинее, чем %(limit_value)s символов "
+"Заголовок тема не может быть длинее, чем %(limit_value)s символов "
 "(он имеет %(show_value)s)."
 
 #: .\static\misago\js\misago.js:8
@@ -1311,71 +1311,71 @@ msgstr "IP записано"
 
 #: .\static\misago\js\misago.js:8
 msgid "Thread title has been changed from %(old_title)s."
-msgstr "Заголовок треда был изменён с %(old_title)s."
+msgstr "Заголовок тема был изменён с %(old_title)s."
 
 #: .\static\misago\js\misago.js:8
 msgid "Thread has been moved from %(from_category)s."
-msgstr "Тред был перемещён из %(from_category)s."
+msgstr "тем был перемещён из %(from_category)s."
 
 #: .\static\misago\js\misago.js:8
 msgid "The %(merged_thread)s thread has been merged into this thread."
-msgstr "%(merged_thread)s был объединён с этим тредом."
+msgstr "%(merged_thread)s был объединён с этим темом."
 
 #: .\static\misago\js\misago.js:8
 msgid "Changed thread owner to %(user)s."
-msgstr "Изменённ владелец треда %(user)s."
+msgstr "Изменённ владелец тема %(user)s."
 
 #: .\static\misago\js\misago.js:8
 msgid "Added %(user)s to thread."
-msgstr "Добавлен %(user)s в тред."
+msgstr "Добавлен %(user)s в тем."
 
 #: .\static\misago\js\misago.js:8
 msgid "Removed %(user)s from thread."
-msgstr "%(user)s удалён из треда."
+msgstr "%(user)s удалён из тема."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been pinned globally."
-msgstr "Тред был прикреплён глобально."
+msgstr "тем был прикреплён глобально."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been pinned locally."
-msgstr "Тред был прикреплён локально."
+msgstr "тем был прикреплён локально."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been unpinned."
-msgstr "Тред был откреплён."
+msgstr "тем был откреплён."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been approved."
-msgstr "Тред был одобрен."
+msgstr "тем был одобрен."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been opened."
-msgstr "Тред был открыт."
+msgstr "тем был открыт."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been closed."
-msgstr "Тред был закрыт."
+msgstr "тем был закрыт."
 
 #: .\static\misago\js\misago.js:8
 msgid "Thread has been revealed."
-msgstr "Тред был показан."
+msgstr "тем был показан."
 
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:15
 msgid "Thread has been made hidden."
-msgstr "Тред был скрыт."
+msgstr "тем был скрыт."
 
 #: .\static\misago\js\misago.js:8
 msgid "Took thread over."
-msgstr "Тред захватили."
+msgstr "тем захватили."
 
 #: .\static\misago\js\misago.js:8
 msgid "Owner has left thread. This thread is now closed."
-msgstr "Владелец покинул тред. Этот тред сейчас закрыт."
+msgstr "Владелец покинул тем. Этот тем сейчас закрыт."
 
 #: .\static\misago\js\misago.js:8
 msgid "Participant has left thread."
-msgstr "Участник покинул тред."
+msgstr "Участник покинул тем."
 
 #: .\static\misago\js\misago.js:8
 msgid "New event"
@@ -1441,15 +1441,15 @@ msgstr "Переместить пост"
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:14
 #: .\static\misago\js\misago.js:15
 msgid "You have to enter link to the other thread."
-msgstr "Вы должны ввести ссылку к другому треду."
+msgstr "Вы должны ввести ссылку к другому тему."
 
 #: .\static\misago\js\misago.js:9
 msgid "Selected post was moved to the other thread."
-msgstr "Выбранная публикация перемещена в другой тред."
+msgstr "Выбранная публикация перемещена в другой тем."
 
 #: .\static\misago\js\misago.js:9
 msgid "Link to thread you want to move post to"
-msgstr "Ссылка к треду, которую вы хотите переместить в публикацию"
+msgstr "Ссылка к тему, которую вы хотите переместить в публикацию"
 
 #: .\static\misago\js\misago.js:9
 msgid "You can't move this post at the moment."
@@ -1457,7 +1457,7 @@ msgstr "Вы не можете перемещать эту публикацию 
 
 #: .\static\misago\js\misago.js:9
 msgid "Split post into new thread"
-msgstr "Разделить публикацию в новый тред"
+msgstr "Разделить публикацию в новый тем"
 
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:15
 #: .\static\misago\js\misago.js:18
@@ -1466,7 +1466,7 @@ msgstr "Да"
 
 #: .\static\misago\js\misago.js:9
 msgid "Selected post was split into new thread."
-msgstr "Выбранная публикация разделенна в новом треде."
+msgstr "Выбранная публикация разделенна в новом теме."
 
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:15
 #: .\static\misago\js\misago.js:18
@@ -1476,17 +1476,17 @@ msgstr "Не прикреплён"
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:15
 #: .\static\misago\js\misago.js:18
 msgid "Thread weight"
-msgstr "Размер треда"
+msgstr "Размер тема"
 
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:15
 #: .\static\misago\js\misago.js:18
 msgid "Hide thread"
-msgstr "Скрыть тред"
+msgstr "Скрыть тем"
 
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:15
 #: .\static\misago\js\misago.js:18
 msgid "Close thread"
-msgstr "Закрыть тред"
+msgstr "Закрыть тем"
 
 #: .\static\misago\js\misago.js:9 .\static\misago\js\misago.js:15
 #: .\static\misago\js\misago.js:17 .\static\misago\js\misago.js:18
@@ -1507,7 +1507,7 @@ msgid ""
 "This post is unapproved. Only users with permission to approve posts and its "
 "author may see its contents."
 msgstr ""
-"Эта публикация несанкционированна. Только пользователи с разрешением могут "
+"Эта публикация неодобрена. Только пользователи с разрешением могут "
 "одобрить публикации, и авторы этой публикации могут просматривать содержимое. "
 
 #: .\static\misago\js\misago.js:9
@@ -1551,7 +1551,7 @@ msgstr "Новая публикация"
 #: .\static\misago\js\misago.js:10 .\static\misago\js\misago.js:16
 #: .\static\misago\js\misago.js:18
 msgid "New"
-msgstr "Новая"
+msgstr "Новые"
 
 #: .\static\misago\js\misago.js:10
 msgid "This post is protected and may not be edited."
@@ -1615,23 +1615,23 @@ msgstr "Детали %(username)s были обновленны."
 
 #: .\static\misago\js\misago.js:10
 msgid "You have no started threads."
-msgstr "Вы не начали тред."
+msgstr "Вы не начали тем."
 
 #: .\static\misago\js\misago.js:10
 msgid "%(username)s started no threads."
-msgstr "%(username)s не начинал треды."
+msgstr "%(username)s не начинал темы."
 
 #: .\static\misago\js\misago.js:10
 msgid "You have started %(threads)s thread."
 msgid_plural "You have started %(threads)s threads."
-msgstr[0] "Вы начали %(threads)s тред."
-msgstr[1] "Вы начали %(threads)s треды."
+msgstr[0] "Вы начали %(threads)s тем."
+msgstr[1] "Вы начали %(threads)s темы."
 
 #: .\static\misago\js\misago.js:10
 msgid "%(username)s has started %(threads)s thread."
 msgid_plural "%(username)s has started %(threads)s threads."
-msgstr[0] "%(username)s начал %(threads)s тред."
-msgstr[1] "%(username)s начал %(threads)s треды."
+msgstr[0] "%(username)s начал %(threads)s тем."
+msgstr[1] "%(username)s начал %(threads)s темы."
 
 #: .\static\misago\js\misago.js:10 .\static\misago\js\misago.js:11
 #: .\static\misago\js\misago.js:12
@@ -1641,7 +1641,7 @@ msgstr "Загрузка..."
 #: .\static\misago\js\misago.js:10 .\static\misago\js\misago.js:17
 #: .\static\misago\js\misago.js:19
 msgid "Threads"
-msgstr "Треды"
+msgstr "темы"
 
 #: .\static\misago\js\misago.js:10
 msgid "You have posted no messages."
@@ -1820,7 +1820,7 @@ msgstr "Имя пользователя было изменено."
 msgid ""
 "%(username)s's account, threads, posts and other content has been deleted."
 msgstr ""
-"Аккаунт, треды, публикации и другой контент пользователя %(username) были удалены."
+"Аккаунт, темы, публикации и другой контент пользователя %(username) были удалены."
 
 #: .\static\misago\js\misago.js:12
 msgid ""
@@ -2038,11 +2038,11 @@ msgstr "Поиск взял %(time)s, чтобы завершиться"
 
 #: .\static\misago\js\misago.js:13
 msgid "No threads matching search query have been found."
-msgstr "Нет тредов соответствующих запросу поиска."
+msgstr "Нет тем соответствующих запросу поиска."
 
 #: .\static\misago\js\misago.js:13
 msgid "Enter at least two characters to search threads."
-msgstr "Введите по крайне мере два символа, чтобы найти треды."
+msgstr "Введите по крайне мере два символа, чтобы найти темы."
 
 #: .\static\misago\js\misago.js:13 .\static\misago\js\misago.js:18
 msgid "Show more"
@@ -2083,11 +2083,11 @@ msgstr "Редактировать заголовок"
 #: .\static\misago\js\misago.js:14 .\static\misago\js\misago.js:16
 #: .\static\misago\js\misago.js:18
 msgid "Unapproved"
-msgstr "Несанкционированно"
+msgstr "Неодобренные"
 
 #: .\static\misago\js\misago.js:14 .\static\misago\js\misago.js:16
 msgid "Unapproved posts"
-msgstr "Несанкционированные публикации"
+msgstr "Неодобренные публикации"
 
 #: .\static\misago\js\misago.js:14 .\static\misago\js\misago.js:16
 msgid "%(replies)s reply"
@@ -2130,11 +2130,11 @@ msgstr "Переместить публикации"
 
 #: .\static\misago\js\misago.js:14
 msgid "Selected posts were moved to the other thread."
-msgstr "Выбранные публикации были перемещенны в другой тред."
+msgstr "Выбранные публикации были перемещенны в другой тем."
 
 #: .\static\misago\js\misago.js:14
 msgid "Link to thread you want to move posts to"
-msgstr "Ссылка к треду, которую вы хотите переместить в публикации"
+msgstr "Ссылка к тему, которую вы хотите переместить в публикации"
 
 #: .\static\misago\js\misago.js:14
 msgid "You can't move selected posts at the moment."
@@ -2142,11 +2142,11 @@ msgstr "Вы не можете передвинуть выбранные пуб�
 
 #: .\static\misago\js\misago.js:15
 msgid "Split posts into new thread"
-msgstr "Разделить публикации в новый тред"
+msgstr "Разделить публикации в новый тем"
 
 #: .\static\misago\js\misago.js:15
 msgid "Selected posts were split into new thread."
-msgstr "Выбранные публикации были разделенны в новый тред."
+msgstr "Выбранные публикации были разделенны в новый тем."
 
 #: .\static\misago\js\misago.js:15
 msgid "Split posts"
@@ -2154,15 +2154,15 @@ msgstr "Разделить публикации"
 
 #: .\static\misago\js\misago.js:15
 msgid "Thread has been made visible."
-msgstr "Тред был сделан видимым."
+msgstr "тем был сделан видимым."
 
 #: .\static\misago\js\misago.js:15
 msgid "Are you sure you want to delete this thread?"
-msgstr "Вы уверены, что зотите удалить этот тред?"
+msgstr "Вы уверены, что зотите удалить этот тем?"
 
 #: .\static\misago\js\misago.js:15
 msgid "Thread has been deleted."
-msgstr "Тред был удалён."
+msgstr "тем был удалён."
 
 #: .\static\misago\js\misago.js:15
 msgid "Pin globally"
@@ -2178,35 +2178,35 @@ msgstr "Открепить"
 
 #: .\static\misago\js\misago.js:15
 msgid "Merge thread"
-msgstr "Объединить тред"
+msgstr "Объединить тем"
 
 #: .\static\misago\js\misago.js:15
 msgid "Thread has been merged with other one."
-msgstr "Тред был объединён с другим."
+msgstr "тем был объединён с другим."
 
 #: .\static\misago\js\misago.js:15
 msgid "Link to thread you want to merge with"
-msgstr "Ссылка к треду, которой вы хотите объединить с"
+msgstr "Ссылка к тему, которой вы хотите объединить с"
 
 #: .\static\misago\js\misago.js:15
 msgid ""
 "Merge will delete current thread and move its contents to the thread "
 "specified here."
 msgstr ""
-"Объединение удалить текущий тред и переместит его содержимое в тред "
+"Объединение удалить текущий тем и переместит его содержимое в тем "
 "указанный здесь."
 
 #: .\static\misago\js\misago.js:15
 msgid "Move thread"
-msgstr "Переместить тред"
+msgstr "Переместить тем"
 
 #: .\static\misago\js\misago.js:15
 msgid "You can't move this thread at the moment."
-msgstr "Вы не можете переместить этот тред в данный момент."
+msgstr "Вы не можете переместить этот тем в данный момент."
 
 #: .\static\misago\js\misago.js:15
 msgid "Thread has been moved."
-msgstr "Тред был перемещён."
+msgstr "тем был перемещён."
 
 #: .\static\misago\js\misago.js:15 .\static\misago\js\misago.js:18
 msgid "New category"
@@ -2231,12 +2231,12 @@ msgstr "Перейти на последнюю страницу"
 #: .\static\misago\js\misago.js:15
 msgid "There is %(more)s more post in this thread."
 msgid_plural "There are %(more)s more posts in this thread."
-msgstr[0] "В этом треде есть %(more)s публикация."
-msgstr[1] "В этом треде есть %(more)s публикаций."
+msgstr[0] "В этом теме есть %(more)s публикация."
+msgstr[1] "В этом теме есть %(more)s публикаций."
 
 #: .\static\misago\js\misago.js:15
 msgid "There are no more posts in this thread."
-msgstr "В этом треде нет публикаций."
+msgstr "В этом теме нет публикаций."
 
 #: .\static\misago\js\misago.js:16 .\static\misago\js\misago.js:17
 msgid "Enabled"
@@ -2264,7 +2264,7 @@ msgstr "Перейти к первой публикации"
 
 #: .\static\misago\js\misago.js:16
 msgid "Go to first unapproved post"
-msgstr "Перейти к первой несанкционированой публикации"
+msgstr "Перейти к первой неодобренной публикации"
 
 #: .\static\misago\js\misago.js:16
 msgid "Go to last post"
@@ -2293,9 +2293,9 @@ msgid_plural ""
 "There are %(threads)s new or updated threads. Click this message to show "
 "them."
 msgstr[0] ""
-"Есть %(threads)s новый или обновлённый тред. Кликните на это сообщение, чтобы посмотреть его."
+"Есть %(threads)s новый или обновлённый тем. Кликните на это сообщение, чтобы посмотреть его."
 msgstr[1] ""
-"Есть %(threads)s новые или обновлённые треды. Кликните на это сообщение, чтобы посмотреть их."
+"Есть %(threads)s новые или обновлённые темы. Кликните на это сообщение, чтобы посмотреть их."
 ""
 
 #: .\static\misago\js\misago.js:16
@@ -2311,139 +2311,139 @@ msgid ""
 "Are you sure you want to mark those threads as read? This action is not "
 "reversible."
 msgstr ""
-"Вы уверены, что хотите пометить эти треды как прочитанные? Это действие не обратимо."
+"Вы уверены, что хотите пометить эти темы как прочитанные? Это действие не обратимо."
 
 #: .\static\misago\js\misago.js:17
 msgid ""
 "Are you sure you want to mark threads in this category as read? This action "
 "is not reversible."
 msgstr ""
-"Вы уверены, что хотите пометить треды в этой категории как прочитанные? Это действие "
+"Вы уверены, что хотите пометить темы в этой категории как прочитанные? Это действие "
 "не обратимо."
 
 #: .\static\misago\js\misago.js:17
 msgid "Threads have been marked as read."
-msgstr "Треды были помеченны как прочитанные."
+msgstr "Темы были помеченны как прочитанные."
 
 #: .\static\misago\js\misago.js:17
 msgid "Start thread"
-msgstr "Начать тред"
+msgstr "Начать тему"
 
 #: .\static\misago\js\misago.js:17
 msgid "Mark as read"
-msgstr "Пометить как прочитанное"
+msgstr "Прочитанно"
 
 #: .\static\misago\js\misago.js:17
 msgid "Why not start one yourself?"
-msgstr "Почему бы не начать самим?"
+msgstr "Почему бы не начать тему?"
 
 #: .\static\misago\js\misago.js:17
 msgid "There are no threads on this forum... yet!"
-msgstr "Нет тредов на этом форуме... ещё!"
+msgstr "Нет тем на этом форуме... ещё!"
 
 #: .\static\misago\js\misago.js:17
 msgid "There are no threads in this category."
-msgstr "Нет тредов в этой категории."
+msgstr "Нет тем в этой категории."
 
 #: .\static\misago\js\misago.js:17
 msgid "No threads matching specified criteria were found."
-msgstr "Нет тредов соотвестующим указанным критериям."
+msgstr "Нет тем соотвестующим указанным критериям."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were pinned globally."
-msgstr "Выбранные треды были прикрепленны глобально."
+msgstr "Выбранные темы были прикрепленны глобально."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were pinned locally."
-msgstr "Выбранные треды былитприкрепленны локально."
+msgstr "Выбранные темы былитприкрепленны локально."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were unpinned."
-msgstr "Выбранные треды были открепленны."
+msgstr "Выбранные темы были открепленны."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were approved."
-msgstr "Выбранные треды были утвержденны."
+msgstr "Выбранные темы были утвержденны."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were opened."
-msgstr "Выбранные треды были открыты."
+msgstr "Выбранные темы были открыты."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were closed."
-msgstr "Выбранные треды были закрыты."
+msgstr "Выбранные темы были закрыты."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were unhidden."
-msgstr "Выбранные треды были расскрыты."
+msgstr "Выбранные темы были расскрыты."
 
 #: .\static\misago\js\misago.js:17
 msgid "Selected threads were hidden."
-msgstr "Выбранные треды были скрыты."
+msgstr "Выбранные темы были скрыты."
 
 #: .\static\misago\js\misago.js:17
 msgid "You don't have permission to merge this thread with others."
-msgstr "У вас нет разрешение объединять этот тред с другими."
+msgstr "У вас нет разрешение объединять этот тем с другими."
 
 #: .\static\misago\js\misago.js:17
 msgid "You have to select at least two threads to merge."
-msgstr "Вы должны выбрать по крайне мере два тредя для объединения."
+msgstr "Вы должны выбрать по крайне мере два темя для объединения."
 
 #: .\static\misago\js\misago.js:18
 msgid "Are you sure you want to delete selected threads?"
-msgstr "Вы уверены, что хотите удалить выбранные треды?"
+msgstr "Вы уверены, что хотите удалить выбранные темы?"
 
 #: .\static\misago\js\misago.js:18
 msgid "Selected threads were deleted."
-msgstr "Выбранные треды были удалены."
+msgstr "Выбранные темы были удалены."
 
 #: .\static\misago\js\misago.js:18
 msgid "Pin threads globally"
-msgstr "Прикрепить треды глобально"
+msgstr "Прикрепить темы глобально"
 
 #: .\static\misago\js\misago.js:18
 msgid "Pin threads locally"
-msgstr "Прикрепить треды локально"
+msgstr "Прикрепить темы локально"
 
 #: .\static\misago\js\misago.js:18
 msgid "Unpin threads"
-msgstr "Открепить треды"
+msgstr "Открепить темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Move threads"
-msgstr "Переместить треды"
+msgstr "Переместить темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Merge threads"
-msgstr "Объединить треды"
+msgstr "Объединить темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Approve threads"
-msgstr "Утвердить треды"
+msgstr "Утвердить темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Open threads"
-msgstr "Открыть треды"
+msgstr "Открыть темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Close threads"
-msgstr "Закрыть треды"
+msgstr "Закрыть темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Unhide threads"
-msgstr "Расскрыть треды"
+msgstr "Расскрыть темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Hide threads"
-msgstr "Скрыть треды"
+msgstr "Скрыть темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Delete threads"
-msgstr "Удалить треды"
+msgstr "Удалить темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Threads moderation"
-msgstr "Модерация тредов"
+msgstr "Модерация тем"
 
 #: .\static\misago\js\misago.js:18
 msgid ""
@@ -2451,14 +2451,14 @@ msgid ""
 "threads:"
 msgstr ""
 "Ошибки были встреченны, когда выполнялрст действия модерации на одном или больше "
-"тредов:"
+"тем:"
 
 #: .\static\misago\js\misago.js:18
 msgid ""
 "You can't move threads because there are no categories you are allowed to "
 "move them to."
 msgstr ""
-"Вы не можете перемещать треды, потому что нет категорий, в которые вам позволенно "
+"Вы не можете перемещать темы, потому что нет категорий, в которые вам позволенно "
 "их перемещать."
 
 #: .\static\misago\js\misago.js:18
@@ -2466,18 +2466,18 @@ msgid ""
 "You need permission to start threads in category to be able to merge threads "
 "to it."
 msgstr ""
-"Вам нужно разрешение начать треды в категории, чтобы объединиять в ней треды."
+"Вам нужно разрешение начать темы в категории, чтобы объединиять в ней темы."
 
 #: .\static\misago\js\misago.js:18
 msgid "Selected threads were moved."
-msgstr "Выбранные треды перемещены."
+msgstr "Выбранные темы перемещены."
 
 #: .\static\misago\js\misago.js:18
 msgid ""
 "You need permission to start threads in category to be able to move threads "
 "to it."
 msgstr ""
-"Вам нужено разрешение начать треды в категории, чтобы перемещать в ней треды."
+"Вам нужено разрешение начать темы в категории, чтобы перемещать в ней темы."
 
 #: .\static\misago\js\misago.js:18
 msgid "Select all"
@@ -2493,7 +2493,7 @@ msgstr "Все"
 
 #: .\static\misago\js\misago.js:18
 msgid "All threads"
-msgstr "Все треды"
+msgstr "Все темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "My"
@@ -2501,11 +2501,11 @@ msgstr "Мои"
 
 #: .\static\misago\js\misago.js:18
 msgid "My threads"
-msgstr "Мои треды"
+msgstr "Мои темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "New threads"
-msgstr "Новые треды"
+msgstr "Новые темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Unread"
@@ -2513,7 +2513,7 @@ msgstr "Непрочитанные"
 
 #: .\static\misago\js\misago.js:18
 msgid "Unread threads"
-msgstr "Непрочитаныне треды"
+msgstr "Непрочитаныне темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Subscribed"
@@ -2521,11 +2521,11 @@ msgstr "Подписанные"
 
 #: .\static\misago\js\misago.js:18
 msgid "Subscribed threads"
-msgstr "Подписанные треды"
+msgstr "Подписанные темы"
 
 #: .\static\misago\js\misago.js:18
 msgid "Unapproved content"
-msgstr "Несанкционированное содержимое"
+msgstr "Неодобренное содержимое"
 
 #: .\static\misago\js\misago.js:19
 msgid "You are browsing as guest."
@@ -2537,7 +2537,7 @@ msgstr "Войдите или зарегистрируйтесь, чтобы н�
 
 #: .\static\misago\js\misago.js:19
 msgid "You have unread private threads."
-msgstr "У вас есть непрочитанные приватные треды."
+msgstr "У вас есть непрочитанные приватные темы."
 
 #: .\static\misago\js\misago.js:19
 msgid "Are you sure you want to sign out?"
@@ -2557,7 +2557,7 @@ msgstr "Изменить аватар"
 
 #: .\static\misago\js\misago.js:19 .\static\misago\js\misago.js:21
 msgid "Private threads"
-msgstr "Приватные треды"
+msgstr "Приватные темы"
 
 #: .\static\misago\js\misago.js:19
 msgid "Log out"
@@ -2670,11 +2670,11 @@ msgid ""
 "Private threads are threads which only those that started them and those "
 "they have invited may see and participate in."
 msgstr ""
-"Приватный треды - треды, которые начинаются кем-либо и в них посылаются "
+"Приватный темы - темы, которые начинаются кем-либо и в них посылаются "
 "приглашения пользователям форума."
 #: .\static\misago\js\misago.js:21
 msgid "You aren't participating in any private threads."
-msgstr "Вы не участник никакого приватного треда."
+msgstr "Вы не участник никакого приватного тема."
 
 #: .\static\misago\js\misago.js:22
 msgid "Lost connection with application."
