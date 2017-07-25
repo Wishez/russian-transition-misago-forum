@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 14:47+0300\n"
+"POT-Creation-Date: 2017-07-24 13:43+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,21 +20,22 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\minecraftforum\settings.py:348
+#: .\sampforum\settings.py:347
 msgid "Personal"
 msgstr "Личное"
 
-#: .\minecraftforum\settings.py:357
+#: .\sampforum\settings.py:356
 msgid "Contact"
 msgstr "Контакты"
 
-#: .\minecraftforum\settings.py:365
+#: .\sampforum\settings.py:364
 msgid "IP address"
 msgstr "IP адрес"
 
-#: .\minecraftforum\settings.py:379
+#: .\sampforum\settings.py:379
 msgid "Russian"
 msgstr "Русский"
 
-#~ msgid "English"
-#~ msgstr "Английский"
+#: .\sampforum\settings.py:380
+msgid "English"
+msgstr "Английский"

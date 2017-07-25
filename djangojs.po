@@ -87,8 +87,10 @@ msgstr "Кликните, чтобы удалить все выбранные %s
 #: .\static\admin\js\actions.js:48 .\static\admin\js\actions.min.js:2
 msgid "%(sel)s of %(cnt)s selected"
 msgid_plural "%(sel)s of %(cnt)s selected"
-msgstr[0] "Выбранны %(sel)s %(cnt)s."
+msgstr[0] "Выбранн %(sel)s %(cnt)s."
 msgstr[1] "Выбранны %(sel)s %(cnt)s."
+msgstr[2] "Выбранно %(sel)s %(cnt)s."
+msgstr[3] "Выбранно %(sel)s %(cnt)s."
 
 #: .\static\admin\js\actions.js:117 .\static\admin\js\actions.min.js:4
 msgid ""
@@ -120,15 +122,19 @@ msgstr "Вы выбрали действие, и вы не сделали ник
 #, javascript-format
 msgid "Note: You are %s hour ahead of server time."
 msgid_plural "Note: You are %s hours ahead of server time."
-msgstr[0] "Обратите внимание: Вы %s часа впереди от серверного время."
-msgstr[1] "Обратите внимание: Вы %s часов впереди от серверного время."
+msgstr[0] "Обратите внимание: Вы %s час впереди от серверного время."
+msgstr[1] "Обратите внимание: Вы %s часа впереди от серверного время."
+msgstr[2] "Обратите внимание: Вы %s часов впереди от серверного время."
+msgstr[3] "Обратите внимание: Вы %s часов впереди от серверного время."
 
 #: .\static\admin\js\admin\DateTimeShortcuts.js:82
 #, javascript-format
 msgid "Note: You are %s hour behind server time."
 msgid_plural "Note: You are %s hours behind server time."
-msgstr[0] "Обратите внимание: Вы %s часа позади от серверного время."
-msgstr[1] "Обратите внимание: Вы %s часов позади от серверного время."
+msgstr[0] "Обратите внимание: Вы %s час позади от серверного время."
+msgstr[1] "Обратите внимание: Вы %s часа позади от серверного время."
+msgstr[2] "Обратите внимание: Вы %s часов позади от серверного время."
+msgstr[3] "Обратите внимание: Вы %s часов позади от серверного время."
 
 #: .\static\admin\js\admin\DateTimeShortcuts.js:109
 #: .\static\admin\js\admin\DateTimeShortcuts.js:160
@@ -391,8 +397,10 @@ msgstr "Эта категория защищена. Вы не можете пр�
 #: .\static\misago\js\misago.js:1 .\static\misago\js\misago.js:20
 msgid "%(threads)s thread"
 msgid_plural "%(threads)s threads"
-msgstr[0] "%(threads)s тем."
+msgstr[0] "%(threads)s тема."
 msgstr[1] "%(threads)s темы."
+msgstr[2] "%(threads)s тем."
+msgstr[3] "%(threads)s тем."
 
 #: .\static\misago\js\misago.js:1 .\static\misago\js\misago.js:10
 #: .\static\misago\js\misago.js:20
@@ -400,6 +408,8 @@ msgid "%(posts)s post"
 msgid_plural "%(posts)s posts"
 msgstr[0] "%(posts)s публикация."
 msgstr[1] "%(posts)s публикации."
+msgstr[2] "%(threads)s публикаций."
+msgstr[3] "%(threads)s публикаций."
 
 #: .\static\misago\js\misago.js:1
 msgid "Set avatar"
@@ -644,8 +654,11 @@ msgstr "Вы не можете изменить ваше имя пользова
 #: .\static\misago\js\misago.js:4
 msgid "You can change your username %(changes_left)s more time."
 msgid_plural "You can change your username %(changes_left)s more times."
-msgstr[0] "Вы можете поменять ваше имя пользователя %(changes_left)s раза."
-msgstr[1] "Вы можете поменять ваше имя пользователя %(changes_left)s раз."
+msgstr[0] "Вы можете поменять ваше имя пользователя %(changes_left)s раз."
+msgstr[1] "Вы можете поменять ваше имя пользователя %(changes_left)s раза."
+msgstr[2] "Вы можете поменять ваше имя пользователя %(changes_left)s раз."
+msgstr[3] "Вы можете поменять ваше имя пользователя %(changes_left)s раз."
+
 
 #: .\static\misago\js\misago.js:4
 msgid "Used changes become available again after %(name_changes_expire)s day."
@@ -653,6 +666,8 @@ msgid_plural ""
 "Used changes become available again after %(name_changes_expire)s days."
 msgstr[0] "Использованые изменения станут доступны опять после %(name_changes_expire)s дня."
 msgstr[1] "Использованые изменения станут доступны опять после %(name_changes_expire)s дней."
+msgstr[2] "Использованые изменения станут доступны опять после %(name_changes_expire)s дней."
+msgstr[3] "Использованые изменения станут доступны опять после %(name_changes_expire)s дней."
 
 #: .\static\misago\js\misago.js:4
 msgid "Your new username is same as current one."
@@ -741,7 +756,7 @@ msgstr "Показать моё присутствие другим пользо
 
 #: .\static\misago\js\misago.js:4
 msgid "Private thread invitations"
-msgstr "Приватное приглашения тема"
+msgstr "Приватное приглашения в тему"
 
 #: .\static\misago\js\misago.js:4
 msgid "Automatic subscriptions"
@@ -749,11 +764,11 @@ msgstr "Автоматические подписки"
 
 #: .\static\misago\js\misago.js:4
 msgid "Threads I start"
-msgstr "темы, что я начал"
+msgstr "Темы, что я начал"
 
 #: .\static\misago\js\misago.js:4
 msgid "Threads I reply to"
-msgstr "темы, где я ответил"
+msgstr "Темы, где я ответил"
 
 #: .\static\misago\js\misago.js:4 .\static\misago\js\misago.js:5
 msgid "Fill out all fields."
@@ -848,6 +863,8 @@ msgid "This thread has %(users)s participant."
 msgid_plural "This thread has %(users)s participants."
 msgstr[0] "Этот тем принадлежит участнику - %(users)s."
 msgstr[1] "Этот тем принадлежит участникам - %(users)s."
+msgstr[2] "Этот тем принадлежит участникам - %(users)s."
+msgstr[3] "Этот тем принадлежит участникам - %(users)s."
 
 #: .\static\misago\js\misago.js:5
 msgid "Entered password is very weak."
@@ -982,6 +999,8 @@ msgid "%(votes)s vote."
 msgid_plural "%(votes)s votes."
 msgstr[0] "%(votes)s голос."
 msgstr[1] "%(votes)s голоса."
+msgstr[2] "%(votes)s голосов."
+msgstr[3] "%(votes)s голосов."
 
 #: .\static\misago\js\misago.js:6
 msgid "Votes are public."
@@ -991,7 +1010,9 @@ msgstr "Голоса публичны."
 msgid "%(votes)s vote, %(proc)s% of total."
 msgid_plural "%(votes)s votes, %(proc)s% of total."
 msgstr[0] "%(votes)s голоса, всего %(proc)s%."
-msgstr[1] "%(votes)s голосов, всего %(proc)s%."
+msgstr[1] "%(votes)s голоса, всего %(proc)s%."
+msgstr[2] "%(votes)s голосов, всего %(proc)s%."
+msgstr[3] "%(votes)s голосов, всего %(proc)s%."
 
 #: .\static\misago\js\misago.js:6
 msgid "Your choice."
@@ -1002,6 +1023,8 @@ msgid "%(votes)s user has voted for this choice."
 msgid_plural "%(votes)s users have voted for this choice."
 msgstr[0] "%(votes)s пользователь проголосовал за этот вариант."
 msgstr[1] "%(votes)s пользователя проголосовали за этот вариант."
+msgstr[2] "%(votes)s пользователей проголосовал за этот вариант."
+msgstr[3] "%(votes)s пользователей проголосовали за этот вариант."
 
 #: .\static\misago\js\misago.js:6
 msgid "Poll votes"
@@ -1040,7 +1063,9 @@ msgstr "Вы не можете выбирать варианты."
 msgid "You can select %(choices)s more choice."
 msgid_plural "You can select %(choices)s more choices."
 msgstr[0] "Вы можете ещё выбрать %(choices)s вариант. "
-msgstr[1] "Вы можете ещё выбрать %(choices)s вариантов."
+msgstr[1] "Вы можете ещё выбрать %(choices)s варианта."
+msgstr[2] "Вы можете ещё выбрать %(choices)s вариантов. "
+msgstr[3] "Вы можете ещё выбрать %(choices)s вариантов."
 
 #: .\static\misago\js\misago.js:6
 msgid "You can change your vote later."
@@ -1124,8 +1149,11 @@ msgstr "Лайки публикации"
 #: .\static\misago\js\misago.js:7
 msgid "%(likes)s like"
 msgid_plural "%(likes)s likes"
-msgstr[0] "%(likes)s лайка"
-msgstr[1] "%(likes)s лайков"
+msgstr[0] "%(likes)s лайк"
+msgstr[1] "%(likes)s лайка"
+msgstr[2] "%(likes)s лайков"
+msgstr[3] "%(likes)s лайков"
+
 
 #: .\static\misago\js\misago.js:7
 msgid "No users have liked this post."
@@ -1170,7 +1198,7 @@ msgstr "Вы должны ввести по крайне мере одного �
 #: .\static\misago\js\misago.js:7 .\static\misago\js\misago.js:8
 #: .\static\misago\js\misago.js:14
 msgid "You have to enter thread title."
-msgstr "Вы должны ввести заголовок тема."
+msgstr "Вы должны ввести заголовок темы."
 
 #: .\static\misago\js\misago.js:7 .\static\misago\js\misago.js:8
 msgid "Your thread has been posted."
@@ -1183,7 +1211,7 @@ msgstr "Запятая делящая список имён пользовате
 #: .\static\misago\js\misago.js:8 .\static\misago\js\misago.js:9
 #: .\static\misago\js\misago.js:15 .\static\misago\js\misago.js:18
 msgid "Thread title"
-msgstr "Заголовок тема"
+msgstr "Заголовок темы"
 
 #: .\static\misago\js\misago.js:8
 msgid "Post thread"
@@ -1235,9 +1263,15 @@ msgid_plural ""
 "Thread title should be at least %(limit_value)s characters long (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Заголовок тема должен быть по крйне мере %(limit_value)s символа диной "
+"Заголовок тема должен быть по крйне мере %(limit_value)s символ диной "
 "(он имеет %(show_value)s)."
 msgstr[1] ""
+"Заголовок тема должен быть по крйне мере %(limit_value)s символа диной "
+"(он имеет %(show_value)s)."
+msgstr[2] ""
+"Заголовок тема должен быть по крйне мере %(limit_value)s символов диной "
+"(он имеет %(show_value)s)."
+msgstr[3] ""
 "Заголовок тема должен быть по крйне мере %(limit_value)s символов диной "
 "(он имеет %(show_value)s)."
 
@@ -1249,9 +1283,15 @@ msgid_plural ""
 "Thread title cannot be longer than %(limit_value)s characters (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Заголовок тема не может быть длинее, чем %(limit_value)s символа "
+"Заголовок тема не может быть длинее, чем %(limit_value)s символ "
 "(он имеет %(show_value)s)."
 msgstr[1] ""
+"Заголовок тема не может быть длинее, чем %(limit_value)s символа "
+"(он имеет %(show_value)s)."
+msgstr[2] ""
+"Заголовок тема не может быть длинее, чем %(limit_value)s символов "
+"(он имеет %(show_value)s)."
+msgstr[3] ""
 "Заголовок тема не может быть длинее, чем %(limit_value)s символов "
 "(он имеет %(show_value)s)."
 
@@ -1264,10 +1304,16 @@ msgid_plural ""
 "%(show_value)s)."
 msgstr[0] ""
 "Опубликованное сообщение должно быть по крайне мере %(limit_value)s "
-"символа длинной (оно имеет %(show_value)s)"
+"символ длинной (оно имеет %(show_value)s)"
 msgstr[1] ""
 "Опубликованное сообщение должно быть по крайне мере %(limit_value)s "
+"символа длинной (оно имеет %(show_value)s)"
+msgstr[2] ""
+"Опубликованное сообщение должно быть по крайне мере %(limit_value)s "
 "символов длинной (оно имеет %(show_value)s)"
+msgstr[3] ""
+"Опубликованное сообщение должно быть по крайне мере %(limit_value)s "
+"символоов длинной (оно имеет %(show_value)s)"
 
 #: .\static\misago\js\misago.js:8
 msgid ""
@@ -1277,9 +1323,15 @@ msgid_plural ""
 "Posted message cannot be longer than %(limit_value)s characters (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Опубликованное сообщение не может быть длинее, чем %(limit_value) символа "
+"Опубликованное сообщение не может быть длинее, чем %(limit_value) символ "
 "(оно содержит %(show_value)s)"
 msgstr[1] ""
+"Опубликованное сообщение не может быть длинее, чем %(limit_value) символа "
+"(оно содержит %(show_value)s)"
+msgstr[2] ""
+"Опубликованное сообщение не может быть длинее, чем %(limit_value) символов "
+"(оно содержит %(show_value)s)"
+msgstr[3] ""
 "Опубликованное сообщение не может быть длинее, чем %(limit_value) символов "
 "(оно содержит %(show_value)s)"
 
@@ -1411,6 +1463,8 @@ msgid "This post was edited %(edits)s time."
 msgid_plural "This post was edited %(edits)s times."
 msgstr[0] "Этот пост был редактирован %(edits)s раз."
 msgstr[1] "Этот пост был редактирован %(edits)s раза."
+msgstr[2] "Этот пост был редактирован %(edits)s раз."
+msgstr[3] "Этот пост был редактирован %(edits)s раз."
 
 #: .\static\misago\js\misago.js:9
 msgid "Changes history"
@@ -1531,6 +1585,8 @@ msgid "%(users)s and %(likes)s other user like this."
 msgid_plural "%(users)s and %(likes)s other users like this."
 msgstr[0] "%(users)s и %(likes)s другому пользователю понравилось это."
 msgstr[1] "%(users)s и %(likes)s другим пользователям понравилось это."
+msgstr[2] "%(users)s и %(likes)s другим пользоватеям понравилось это."
+msgstr[3] "%(users)s и %(likes)s другим пользователям понравилось это."
 
 #: .\static\misago\js\misago.js:9
 msgid "Liked"
@@ -1564,14 +1620,18 @@ msgstr "защищено"
 #: .\static\misago\js\misago.js:10
 msgid "edited %(edits)s time"
 msgid_plural "edited %(edits)s times"
-msgstr[0] "исправленно %(edits)s раза"
-msgstr[1] "исправленно %(edits)s раз"
+msgstr[0] "исправленно %(edits)s раз"
+msgstr[1] "исправленно %(edits)s раза"
+msgstr[2] "исправленно %(edits)s раз"
+msgstr[3] "исправленно %(edits)s раз"
 
 #: .\static\misago\js\misago.js:10
 msgid "%(edits)s edit"
 msgid_plural "%(edits)s edits"
 msgstr[0] "%(edits)s исправление"
 msgstr[1] "%(edits)s исправления"
+msgstr[2] "%(edits)s исправлений"
+msgstr[3] "%(edits)s исправлений"
 
 #: .\static\misago\js\misago.js:10
 msgid "Ban details"
@@ -1624,14 +1684,18 @@ msgstr "%(username)s не начинал темы."
 #: .\static\misago\js\misago.js:10
 msgid "You have started %(threads)s thread."
 msgid_plural "You have started %(threads)s threads."
-msgstr[0] "Вы начали %(threads)s тем."
+msgstr[0] "Вы начали %(threads)s тему."
 msgstr[1] "Вы начали %(threads)s темы."
+msgstr[2] "Вы начали %(threads)s тем."
+msgstr[3] "Вы начали %(threads)s тем."
 
 #: .\static\misago\js\misago.js:10
 msgid "%(username)s has started %(threads)s thread."
 msgid_plural "%(username)s has started %(threads)s threads."
-msgstr[0] "%(username)s начал %(threads)s тем."
+msgstr[0] "%(username)s начал %(threads)s тему."
 msgstr[1] "%(username)s начал %(threads)s темы."
+msgstr[2] "%(username)s начал %(threads)s тем."
+msgstr[3] "%(username)s начал %(threads)s тем."
 
 #: .\static\misago\js\misago.js:10 .\static\misago\js\misago.js:11
 #: .\static\misago\js\misago.js:12
@@ -1656,12 +1720,16 @@ msgid "You have posted %(posts)s message."
 msgid_plural "You have posted %(posts)s messages."
 msgstr[0] "Вы опубликовали %(posts)s сообщение."
 msgstr[1] "Вы опубликовали %(posts)s сообщения."
+msgstr[2] "Вы опубликовали %(posts)s сообщений."
+msgstr[3] "Вы опубликовали %(posts)s сообщений."
 
 #: .\static\misago\js\misago.js:10
 msgid "%(username)s has posted %(posts)s message."
 msgid_plural "%(username)s has posted %(posts)s messages."
 msgstr[0] "%(username)s опубликовал %(posts)s сообщение."
 msgstr[1] "%(username)s опубликовал %(posts)s сообщения."
+msgstr[2] "%(username)s опубликовал %(posts)s сообщений."
+msgstr[3] "%(username)s опубликовал %(posts)s сообщений."
 
 #: .\static\misago\js\misago.js:11
 msgid "Posts"
@@ -1686,20 +1754,27 @@ msgstr "Последователи"
 #: .\static\misago\js\misago.js:11
 msgid "Found %(users)s user."
 msgid_plural "Found %(users)s users."
-msgstr[0] "Найдено %(users)s пользователя."
-msgstr[1] "Найдено %(users)s пользователей."
+msgstr[0] "Найден %(users)s пользователь."
+msgstr[1] "Найдено %(users)s пользователя."
+msgstr[2] "Найдено %(users)s пользователей."
+msgstr[3] "Найдено %(users)s пользователей."
 
 #: .\static\misago\js\misago.js:11
 msgid "You have %(users)s follower."
 msgid_plural "You have %(users)s followers."
 msgstr[0] "У вас %(users)s последователь."
-msgstr[1] "У вас %(users)s последователей."
+msgstr[1] "У вас %(users)s последователя."
+msgstr[2] "У вас %(users)s последователей."
+msgstr[3] "У вас %(users)s последователей."
+
 
 #: .\static\misago\js\misago.js:11
 msgid "%(username)s has %(users)s follower."
 msgid_plural "%(username)s has %(users)s followers."
 msgstr[0] "У %(username)s есть %(users)s последователь."
-msgstr[1] "У %(username)s есть %(users)s последователей."
+msgstr[1] "У %(username)s есть %(users)s последователя."
+msgstr[2] "У %(username)s есть %(users)s последователей."
+msgstr[3] "У %(username)s есть %(users)s последователей."
 
 #: .\static\misago\js\misago.js:11
 msgid "Search returned no users matching specified criteria."
@@ -1724,14 +1799,19 @@ msgstr "Следует"
 #: .\static\misago\js\misago.js:11
 msgid "You are following %(users)s user."
 msgid_plural "You are following %(users)s users."
-msgstr[0] "Вы следуете за пользователем - %(users)s."
-msgstr[1] "Вы следуете за пользователями - %(users)s."
+msgstr[0] "Вы следуете за %(users)s пользователем."
+msgstr[1] "Вы следуете за %(users)s пользователями."
+msgstr[2] "Вы следуете за %(users)s пользователями."
+msgstr[3] "Вы следуете за %(users)s пользователями."
 
 #: .\static\misago\js\misago.js:11
 msgid "%(username)s is following %(users)s user."
 msgid_plural "%(username)s is following %(users)s users."
-msgstr[0] "%(username)s следует за пользователем - %(users)s"
-msgstr[1] "%(username)s следует за пользовательми - %(users)s"
+msgstr[0] "%(username)s следует за %(users)s пользователем."
+msgstr[1] "%(username)s следует за %(users)s пользователями."
+msgstr[2] "%(username)s следует за %(users)s пользователями."
+msgstr[3] "%(username)s следует за %(users)s пользователями."
+
 
 #: .\static\misago\js\misago.js:11
 msgid "You are not following any users."
@@ -1868,19 +1948,25 @@ msgstr "История имёни пользователя"
 msgid "Found %(changes)s username change."
 msgid_plural "Found %(changes)s username changes."
 msgstr[0] "Найдено %(changes)s изменение имени пользователя."
-msgstr[1] "Найдено %(changes)s изменений имени пользователя."
+msgstr[1] "Найдено %(changes)s изменения имени пользователя."
+msgstr[2] "Найдено %(changes)s изменений имени пользователя."
+msgstr[3] "Найдено %(changes)s изменений имени пользователя."
 
 #: .\static\misago\js\misago.js:12
 msgid "Your username was changed %(changes)s time."
 msgid_plural "Your username was changed %(changes)s times."
 msgstr[0] "Ваше имя было изменено %(changes)s раз."
-msgstr[1] "Ваше имя было изменено %(changes)s раз."
+msgstr[1] "Ваше имя было изменено %(changes)s раза."
+msgstr[2] "Ваше имя было изменено %(changes)s раз."
+msgstr[3] "Ваше имя было изменено %(changes)s раз."
 
 #: .\static\misago\js\misago.js:12
 msgid "%(username)s's username was changed %(changes)s time."
 msgid_plural "%(username)s's username was changed %(changes)s times."
 msgstr[0] "Имя пользователя %(username)s было изменено %(changes)s раз."
-msgstr[1] "Имя пользователя %(username)s было изменено %(changes)s раз."
+msgstr[1] "Имя пользователя %(username)s было изменено %(changes)s раза."
+msgstr[2] "Имя пользователя %(username)s было изменено %(changes)s раз."
+msgstr[3] "Имя пользователя %(username)s было изменено %(changes)s раз."
 
 #: .\static\misago\js\misago.js:12
 msgid "Search returned no username changes matching specified criteria."
@@ -2092,8 +2178,10 @@ msgstr "Неодобренные публикации"
 #: .\static\misago\js\misago.js:14 .\static\misago\js\misago.js:16
 msgid "%(replies)s reply"
 msgid_plural "%(replies)s replies"
-msgstr[0] "%(replies)s ответил"
-msgstr[1] "%(replies)s ответил"
+msgstr[0] "%(replies)s ответ"
+msgstr[1] "%(replies)s ответа"
+msgstr[2] "%(replies)s ответов"
+msgstr[3] "%(replies)s ответов"
 
 #: .\static\misago\js\misago.js:14
 msgid "last reply by %(user)s %(date)s"
@@ -2232,7 +2320,9 @@ msgstr "Перейти на последнюю страницу"
 msgid "There is %(more)s more post in this thread."
 msgid_plural "There are %(more)s more posts in this thread."
 msgstr[0] "В этом теме есть %(more)s публикация."
-msgstr[1] "В этом теме есть %(more)s публикаций."
+msgstr[1] "В этом теме есть %(more)s публикации."
+msgstr[2] "В этом теме есть %(more)s публикаций."
+msgstr[3] "В этом теме есть %(more)s публикаций."
 
 #: .\static\misago\js\misago.js:15
 msgid "There are no more posts in this thread."
@@ -2293,9 +2383,14 @@ msgid_plural ""
 "There are %(threads)s new or updated threads. Click this message to show "
 "them."
 msgstr[0] ""
-"Есть %(threads)s новый или обновлённый тем. Кликните на это сообщение, чтобы посмотреть его."
+"Есть %(threads)s новая или обновлённая тема. Кликните на это сообщение, чтобы посмотреть её."
 msgstr[1] ""
 "Есть %(threads)s новые или обновлённые темы. Кликните на это сообщение, чтобы посмотреть их."
+""
+msgstr[2] ""
+"Есть %(threads)s новый или обновлённый тем. Кликните на это сообщение, чтобы посмотреть его."
+msgstr[3] ""
+"Есть %(threads)s новые или обновлённые тем. Кликните на это сообщение, чтобы посмотреть их."
 ""
 
 #: .\static\misago\js\misago.js:16
@@ -2335,7 +2430,7 @@ msgstr "Прочитанно"
 
 #: .\static\misago\js\misago.js:17
 msgid "Why not start one yourself?"
-msgstr "Почему бы не начать тему?"
+msgstr "Почему бы вам не начать тему?"
 
 #: .\static\misago\js\misago.js:17
 msgid "There are no threads on this forum... yet!"
@@ -2615,7 +2710,9 @@ msgstr "Оффлайн"
 msgid "%(followers)s follower"
 msgid_plural "%(followers)s followers"
 msgstr[0] "%(followers)s последователь"
-msgstr[1] "%(followers)s последователи"
+msgstr[1] "%(followers)s последователя"
+msgstr[2] "%(followers)s последователей"
+msgstr[3] "%(followers)s последователей"
 
 #: .\static\misago\js\misago.js:20
 msgid "No users have posted any new messages during last %(days)s days."
@@ -2636,8 +2733,10 @@ msgstr "Все публикации"
 #: .\static\misago\js\misago.js:20
 msgid "%(posters)s most active poster from last %(days)s days."
 msgid_plural "%(posters)s most active posters from last %(days)s days."
-msgstr[0] "%(posters)s - самый активный постер за последние %(days)s дней."
-msgstr[1] "%(posters)s - самые активные постеры за последние %(days)s дней."
+msgstr[0] "%(posters)s самый активный постер за последние %(days)s дней."
+msgstr[1] "%(posters)s самых активных постера за последние %(days)s дней."
+msgstr[2] "%(posters)s самых активный постеров за последние %(days)s дней."
+msgstr[3] "%(posters)s самых активный постеров за последние %(days)s дней."
 
 #: .\static\misago\js\misago.js:20 .\static\misago\js\misago.js:21
 msgid "Users"
@@ -2647,7 +2746,9 @@ msgstr "Пользователи"
 msgid "There is %(more)s more member with this role."
 msgid_plural "There are %(more)s more members with this role."
 msgstr[0] "Есть %(more)s участник с этой ролью."
-msgstr[1] "Есть %(more)s участников с этой ролью."
+msgstr[1] "Есть %(more)s участника с этой ролью."
+msgstr[2] "Есть %(more)s участников с этой ролью."
+msgstr[3] "Есть %(more)s участников с этой ролью."
 
 #: .\static\misago\js\misago.js:20
 msgid "There are no more members with this role."
@@ -2736,9 +2837,15 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)s characters (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Убедитесь, что значение этого поля имеет по крайне мере %(limit_value)s символа "
+"Убедитесь, что значение этого поля имеет по крайне мере %(limit_value)s символ "
 "(сейчас у него %(show_value)s)."
 msgstr[1] ""
+"Убедитесь, что значение этого поля имеет по крайне мере %(limit_value)s символа "
+"(сейчас у него %(show_value)s)."
+msgstr[2] ""
+"Убедитесь, что значение этого поля имеет по крайне мере %(limit_value)s символов "
+"(сейчас у него %(show_value)s)."
+msgstr[3] ""
 "Убедитесь, что значение этого поля имеет по крайне мере %(limit_value)s символов "
 "(сейчас у него %(show_value)s)."
 
@@ -2750,23 +2857,33 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)s characters (it has "
 "%(show_value)s)."
 msgstr[0] ""
-"Убедитесь, что значение этого поля имеет максимум %(limit_value)s символа"
+"Убедитесь, что значение этого поля имеет максимум %(limit_value)s символ"
 "(сейчас у него %(show_value)s)."
 msgstr[1] ""
+"Убедитесь, что значение этого поля имеет максимум %(limit_value)s символа"
+"(сейчас у него %(show_value)s)."
+msgstr[2] ""
+"Убедитесь, что значение этого поля имеет максимум %(limit_value)s символов"
+"(сейчас у него %(show_value)s)."
+msgstr[3] ""
 "Убедитесь, что значение этого поля имеет максимум %(limit_value)s символов"
 "(сейчас у него %(show_value)s)."
 
 #: .\static\misago\js\misago.js:23
 msgid "Username must be at least %(limit_value)s character long."
 msgid_plural "Username must be at least %(limit_value)s characters long."
-msgstr[0] "Имя пользователя должно быть по крайне мере длиной в %(limit_value)s символа."
-msgstr[1] "Имя пользователя должно быть по крайне мере длиной в %(limit_value)s символов."
+msgstr[0] "Имя пользователя должно быть по крайне мере длиной в %(limit_value)s символ."
+msgstr[1] "Имя пользователя должно быть по крайне мере длиной в %(limit_value)s символа."
+msgstr[2] "Имя пользователя должно быть по крайне мере длиной в %(limit_value)s символов."
+msgstr[3] "Имя пользователя должно быть по крайне мере длиной в %(limit_value)s символов."
 
 #: .\static\misago\js\misago.js:23
 msgid "Username cannot be longer than %(limit_value)s character."
 msgid_plural "Username cannot be longer than %(limit_value)s characters."
-msgstr[0] "Имя пользователя не может быть длинее, чем %(limit_value)s символа."
-msgstr[1] "Имя пользователя не может быть длинее, чем %(limit_value)s символов."
+msgstr[0] "Имя пользователя не может быть длинее, чем %(limit_value)s символ."
+msgstr[1] "Имя пользователя не может быть длинее, чем %(limit_value)s символа."
+msgstr[2] "Имя пользователя не может быть длинее, чем %(limit_value)s символов."
+msgstr[3] "Имя пользователя не может быть длинее, чем %(limit_value)s символов."
 
 #: .\static\misago\js\misago.js:23
 msgid "Username can only contain latin alphabet letters and digits."
@@ -2775,5 +2892,7 @@ msgstr "Имя пользователя может содержать тольк
 #: .\static\misago\js\misago.js:23
 msgid "Valid password must be at least %(limit_value)s character long."
 msgid_plural "Valid password must be at least %(limit_value)s characters long."
-msgstr[0] "Правильный пароль должен быть по крайне мере длиной %(limit_value)s символа."
-msgstr[1] "Правильный пароль должен быть по крайне мере длиной %(limit_value)s символов."
+msgstr[0] "Правильный пароль должен быть по крайне мере длиной %(limit_value)s символ."
+msgstr[1] "Правильный пароль должен быть по крайне мере длиной %(limit_value)s символа."
+msgstr[2] "Правильный пароль должен быть по крайне мере длиной %(limit_value)s символов."
+msgstr[3] "Правильный пароль должен быть по крайне мере длиной %(limit_value)s символов."
