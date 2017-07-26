@@ -1835,7 +1835,7 @@ msgstr "Присоединился %(joined_on)s"
 
 #: .\static\misago\js\misago.js:11 .\static\misago\js\misago.js:14
 msgid "Moderation"
-msgstr "Умеренность"
+msgstr "Модерация"
 
 #: .\static\misago\js\misago.js:11
 msgid "Message"

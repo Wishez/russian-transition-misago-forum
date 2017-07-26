@@ -1142,7 +1142,7 @@ msgstr "Роль категории"
 
 #: .\misago\templates\misago\admin\categoryroles\list.html:44
 msgid "No category roles are currently defined."
-msgstr "На данный момент нет опредённых ролей категории."
+msgstr "На данный момент нет определённых  ролей категории."
 
 #: .\misago\templates\misago\admin\categoryroles\list.html:53
 #: .\misago\templates\misago\admin\roles\list.html:69
@@ -1214,7 +1214,7 @@ msgstr ""
 #: .\misago\templates\misago\errorpages\csrf_failure.html:5
 #: .\misago\templates\misago\errorpages\csrf_failure_authenticated.html:5
 msgid "Request blocked"
-msgstr "Запрос заблакирован"
+msgstr "Запрос заблокирован"
 
 #: .\misago\templates\misago\admin\errorpages\csrf_failure.html:19
 #: .\misago\templates\misago\admin\errorpages\csrf_failure_authenticated.html:17
@@ -1289,7 +1289,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    Страница - %(page)s пренадлежит - %(pages)s\n"
+"    Страница - %(page)s принадлежит - %(pages)s\n"
 "    "
 
 #: .\misago\templates\misago\admin\generic\paginator.html:11
@@ -1313,7 +1313,7 @@ msgstr "Перейти на предыдущую страницу"
 #: .\misago\templates\misago\thread\paginator.html:27
 #: .\misago\templates\misago\userslists\rank.html:105
 msgid "Go to next page"
-msgstr "Перейти на следущую страницу"
+msgstr "Перейти на следующую страницу"
 
 #: .\misago\templates\misago\admin\generic\paginator.html:32
 #: .\misago\templates\misago\thread\paginator.html:32
@@ -1392,7 +1392,7 @@ msgstr "Панель администрирования"
 
 #: .\misago\templates\misago\admin\login.html:35 .\misago\users\captcha.py:22
 msgid "Please try again."
-msgstr "Пожалуйста повторите снова."
+msgstr "Пожалуйста попробуйте заново."
 
 #: .\misago\templates\misago\admin\login.html:57
 #: .\misago\users\forms\auth.py:53
@@ -1419,7 +1419,7 @@ msgstr "Выйти из панели администрирования"
 
 #: .\misago\templates\misago\admin\logout.html:30
 msgid "Log out completely"
-msgstr "Полностью выйти"
+msgstr "Выйти полностью"
 
 #: .\misago\templates\misago\admin\navbar.html:18
 msgid "Edit your account"
@@ -1500,7 +1500,7 @@ msgstr "Сейчас нет определённых ролей пользова
 #: .\misago\templates\misago\admin\users\ban.html:11
 #: .\misago\users\views\admin\users.py:72
 msgid "Ban users"
-msgstr "Заблокированые пользователи"
+msgstr "Блокировка пользователей"
 
 #: .\misago\templates\misago\admin\users\ban.html:16
 msgid "Ban selected users:"
@@ -1515,7 +1515,7 @@ msgstr "Аватар"
 
 #: .\misago\templates\misago\admin\users\ban.html:72
 msgid "Set bans"
-msgstr "Установить блокировку"
+msgstr "Установить запреты"
 
 #: .\misago\templates\misago\admin\users\delete.html:6
 #: .\misago\templates\misago\admin\users\delete.html:11
@@ -1563,7 +1563,7 @@ msgstr "Заметка"
 
 #: .\misago\templates\misago\admin\users\edit.html:90
 msgid "Only superusers can change other users administrator status."
-msgstr "Только суперпользователи могут изменять администраторский статус пользователей."
+msgstr "Только суперпользователи могут изменять пользовательский статус администрирования."
 
 #: .\misago\templates\misago\admin\users\edit.html:96
 #: .\misago\templates\misago\admin\users\new.html:48
@@ -1589,7 +1589,7 @@ msgstr "Статус аккаунта"
 
 #: .\misago\templates\misago\admin\users\edit.html:176
 msgid "No staff message is available."
-msgstr "Нет доступных штатных сообщений."
+msgstr "Нет доступного штатного сообщения."
 
 #: .\misago\templates\misago\admin\users\list.html:9
 #: .\misago\templates\misago\admin\users\new.html:6
@@ -1616,11 +1616,11 @@ msgstr "Отображён администратором"
 
 #: .\misago\templates\misago\admin\users\list.html:48
 msgid "Requires activation by administrator"
-msgstr "Требования активированы администратором"
+msgstr "Требуется активация администратором"
 
 #: .\misago\templates\misago\admin\users\list.html:50
 msgid "Has to activate account"
-msgstr "Есть активный аккаунт"
+msgstr "Должен активировать аккаунт"
 
 #: .\misago\templates\misago\admin\users\list.html:57
 msgid "Super administrator"
@@ -1640,7 +1640,7 @@ msgstr "Пользователи совпадающие критерию пои�
 
 #: .\misago\templates\misago\admin\users\list.html:99
 msgid "Search users"
-msgstr "Поиск пользователей"
+msgstr "Искать пользователей"
 
 #: .\misago\templates\misago\admin\users\new.html:65
 msgid "Save user"
@@ -1688,12 +1688,12 @@ msgstr "Не ограниченный"
 #: .\misago\templates\misago\admin\warnings\list.html:50
 #: .\misago\templates\misago\admin\warnings\list.html:68
 msgid "Moderated"
-msgstr "Модерируемый"
+msgstr "Управляемый"
 
 #: .\misago\templates\misago\admin\warnings\list.html:55
 #: .\misago\templates\misago\admin\warnings\list.html:73
 msgid "Forbidden"
-msgstr "Забрещённый"
+msgstr "Запрещённый"
 
 #: .\misago\templates\misago\admin\warnings\list.html:126
 msgid "No warning levels are currently defined."
@@ -1717,9 +1717,14 @@ msgid_plural ""
 "There are %(categories)s main categories currenty available on the "
 "%(forum_name)s."
 msgstr[0] ""
-"На %(forum_name)s сейчас нет доступной категории."
+"На %(forum_name)s сейчас  %(categories)s основная категория."
 msgstr[1] ""
-"На %(forum_name)s сейчас нет доступных категорий."
+"На %(forum_name)s сейчас  %(categories)s основные категории."
+msgstr[2] ""
+"На %(forum_name)s сейчас  %(categories)s основных категорий."
+msgstr[3] ""
+"На %(forum_name)s сейчас  %(categories)s основных категорий."
+
 
 #: .\misago\templates\misago\categories\body.html:15
 msgid "No categories exist or you don't have permission to see them."
@@ -1852,13 +1857,13 @@ msgid ""
 "to participate in private thread %(thread)s."
 msgstr ""
 "%(user)s,  вы получаете это сообщение, потому что %(sender)s пригласил вас "
-"стать участником приватного тема %(thread)s."
+"стать участником приватной темы %(thread)s."
 
 
 #: .\misago\templates\misago\emails\privatethread\added.html:14
 #: .\misago\templates\misago\emails\privatethread\added.txt:10
 msgid "To read this thread click the link below:"
-msgstr "Читать этот тем, кликнув на ссылку ниже:"
+msgstr "Читать эту тему, кликнув на ссылку ниже:"
 
 #: .\misago\templates\misago\emails\privatethread\added.txt:6
 #, python-format
@@ -1874,7 +1879,7 @@ msgstr ""
 #: .\misago\templates\misago\emails\register\inactive.txt:6
 #, python-format
 msgid "%(user)s, thank you for joining us!"
-msgstr "%(user)s, благодарит вас за присоедение к нам!"
+msgstr "%(user)s, благодарит вас за присоединение  к нам!"
 
 #: .\misago\templates\misago\emails\register\complete.html:12
 #: .\misago\templates\misago\emails\register\complete.txt:10
@@ -1916,7 +1921,7 @@ msgstr ""
 #: .\misago\templates\misago\emails\register\inactive.html:17
 #: .\misago\templates\misago\emails\register\inactive.txt:20
 msgid "Thank you for your patience and see you soon!"
-msgstr "Спасибо за ваше термении и скоро увидемся!"
+msgstr "Спасибо за ваше терпение, скоро увидимся!"
 
 #: .\misago\templates\misago\emails\register\inactive.html:22
 #: .\misago\templates\misago\emails\register\inactive.txt:25
@@ -1941,8 +1946,8 @@ msgid ""
 "Once your account is activated, you can always sign in to it using the form "
 "below:"
 msgstr ""
-"Однажды ваш аккаунт активирован, вы можете всегда входить в него используя "
-"форму, находящаяся ниже:"
+"Ваш аккаунт активируется единожды, вы можете всегда входить в него используя "
+"форму, находящуюся ниже:"
 
 #: .\misago\templates\misago\emails\thread\reply.html:9
 #, python-format
@@ -1980,7 +1985,7 @@ msgid ""
 "The link you followed was incorrect or the page has been moved or deleted."
 msgstr ""
 "Эта ссылка, по который вы проследовали была неправильна, или страница была "
-"пермещена или удалена."
+"перемещена или удалена."
 
 #: .\misago\templates\misago\errorpages\405.html:5
 #: .\misago\templates\misago\errorpages\405.html:13
@@ -2003,7 +2008,7 @@ msgstr "Вы заблокированы"
 
 #: .\misago\templates\misago\errorpages\banned.html:9
 msgid "You are banned from accessing this page."
-msgstr "Доступ к этой странице заблокирован."
+msgstr "Вы заблокированы на это странице."
 
 #: .\misago\templates\misago\errorpages\banned.html:35
 #, python-format
@@ -2024,7 +2029,7 @@ msgstr ""
 
 #: .\misago\templates\misago\footer.html:9
 msgid "For complete experience please enable JavaScript."
-msgstr "Для завршения опыта, пожалуйста, включите JavaScript."
+msgstr "Для завершения опыта, пожалуйста, включите JavaScript."
 
 #: .\misago\templates\misago\forgottenpassword\error.html:5
 msgid "Change forgotten password error"
@@ -2052,7 +2057,7 @@ msgid ""
 "password."
 msgstr ""
 "Потому что пароли пользователя обрабатываются необратимым способом, прежде чем быть "
-"сохраннёными в базу данных. Для нас не возможно просто взять и послать ваш пароль."
+"сохранёнными в базу данных. Для нас не возможно просто взять и послать ваш пароль."
 
 #: .\misago\templates\misago\forgottenpassword\request.html:25
 msgid ""
@@ -2061,7 +2066,7 @@ msgid ""
 "until your password is changed."
 msgstr ""
 "Взамен, вы можете изменить ваш пароль используя специальную защиту при помощи той "
-"доступной специальной правильной ссылке, только в вашем бразуере, до семи дней "
+"доступной специальной правильной ссылке, только в вашем браузере, до семи дней "
 "или до того, как ваш пароль будет изменён."
 
 #: .\misago\templates\misago\forgottenpassword\request.html:45
@@ -2110,8 +2115,10 @@ msgstr "Добавить участника"
 #, python-format
 msgid "This thread has %(users)s participant."
 msgid_plural "This thread has %(users)s participants."
-msgstr[0] "У этот тема есть участник - %(users)s."
-msgstr[1] "У этот тема есть участники - %(users)s."
+msgstr[0] "У этой темы есть %(users)s участник."
+msgstr[1] "У этих темы есть %(users)s участника."
+msgstr[2] "У этой темы есть %(users)s участников."
+msgstr[3] "У этой темы есть %(users)s участников."
 
 #: .\misago\templates\misago\poll\info.html:4
 #, python-format
@@ -2119,6 +2126,8 @@ msgid "%(votes)s vote."
 msgid_plural "%(votes)s votes."
 msgstr[0] "%(votes)s голос."
 msgstr[1] "%(votes)s голоса."
+msgstr[2] "%(votes)s голосов."
+msgstr[3] "%(votes)s голосов."
 
 #: .\misago\templates\misago\poll\info.html:15
 #, python-format
@@ -2132,15 +2141,17 @@ msgstr "Публичные голоса."
 #: .\misago\templates\misago\poll\info.html:36
 #, python-format
 msgid "Posted by %(poster)s on %(posted_on)s."
-msgstr "Опубликованно %(poster)s в %(posted_on)s."
+msgstr "Опубликовано %(poster)s в %(posted_on)s."
 
 #: .\misago\templates\misago\poll\results.html:21
 #: .\misago\templates\misago\poll\results.html:31
 #, python-format
 msgid "%(votes)s vote, %(proc)s%% of total."
 msgid_plural "%(votes)s votes, %(proc)s%% of total."
-msgstr[0] "%(votes)s голоса, всего %(proc)s%%."
-msgstr[1] "%(votes)s голосов, всего %(proc)s%%."
+msgstr[0] "%(votes)s голос, всего %(proc)s%%."
+msgstr[1] "%(votes)s голоса, всего %(proc)s%%."
+msgstr[2] "%(votes)s голосов, всего %(proc)s%%."
+msgstr[3] "%(votes)s голосов, всего %(proc)s%%."
 
 #: .\misago\templates\misago\poll\results.html:41
 msgid "Your choice."
@@ -2159,7 +2170,9 @@ msgstr "Смотреть голоса"
 msgid "You can select %(choices)s choice."
 msgid_plural "You can select %(choices)s choices."
 msgstr[0] "Вы можете выбрать %(choices)s вариант."
-msgstr[1] "Вы можете выбрать %(choices)s вариантов."
+msgstr[1] "Вы можете выбрать %(choices)s варианта."
+msgstr[2] "Вы можете выбрать %(choices)s вариантов."
+msgstr[3] "Вы можете выбрать %(choices)s вариантов."
 
 #: .\misago\templates\misago\poll\voting.html:32
 msgid "You can change your vote later."
@@ -2216,15 +2229,19 @@ msgstr "%(title)s, присоединился %(joined_on)s."
 #, python-format
 msgid "Wrote %(posts)s post."
 msgid_plural "Wrote %(posts)s posts."
-msgstr[0] "Написана %(posts)s публикация."
-msgstr[1] "Написана %(posts)s публикации."
+msgstr[0] "Написал %(posts)s публикацию."
+msgstr[1] "Написал %(posts)s публикации."
+msgstr[2] "Написал %(posts)s публикаций."
+msgstr[3] "Написал %(posts)s публикаций."
 
 #: .\misago\templates\misago\profile\base.html:25
 #, python-format
 msgid "Started %(threads)s thread."
 msgid_plural "Started %(threads)s threads."
-msgstr[0] "Начато %(threads)s тема."
-msgstr[1] "Начато %(threads)s темов."
+msgstr[0] "Начал %(threads)s тему."
+msgstr[1] "Начал %(threads)s темы."
+msgstr[2] "Начал %(threads)s тем."
+msgstr[3] "Начал %(threads)s тем."
 
 #: .\misago\templates\misago\profile\details.html:5
 #: .\misago\templates\misago\profile\details.html:8
@@ -2248,7 +2265,7 @@ msgstr "Смотреть публикацию"
 #: .\misago\templates\misago\profile\feed.html:61
 #: .\misago\templates\misago\thread\posts\post\body.html:10
 msgid "This post's contents cannot be displayed."
-msgstr "Эта содержимое публикации не может быть отображено.."
+msgstr "Эта содержимое публикации не может быть отображено."
 
 #: .\misago\templates\misago\profile\feed.html:62
 #: .\misago\templates\misago\thread\posts\post\body.html:11
@@ -2266,6 +2283,8 @@ msgid "You have %(users)s follower."
 msgid_plural "You have %(users)s followers."
 msgstr[0] "У вас есть %(users)s последователь."
 msgstr[1] "У вас есть %(users)s последователя."
+msgstr[2] "У вас есть %(users)s последователей."
+msgstr[3] "У вас есть %(users)s последователей."
 
 #: .\misago\templates\misago\profile\followers.html:23
 #, python-format
@@ -2273,6 +2292,8 @@ msgid "%(username)s has %(users)s follower."
 msgid_plural "%(username)s has %(users)s followers."
 msgstr[0] "У %(username)s есть %(users)s последователь."
 msgstr[1] "У %(username)s есть %(users)s последователя."
+msgstr[2] "У %(username)s есть %(users)s последователей."
+msgstr[3] "У %(username)s есть %(users)s последователей."
 
 #: .\misago\templates\misago\profile\followers.html:48
 msgid "You have no followers."
@@ -2281,7 +2302,7 @@ msgstr "У вас нет последователей."
 #: .\misago\templates\misago\profile\followers.html:50
 #, python-format
 msgid "%(username)s has no followers."
-msgstr "%(username)s  не имеет последователей."
+msgstr "У %(username)s нет последователей."
 
 #: .\misago\templates\misago\profile\follows.html:5
 #: .\misago\templates\misago\profile\follows.html:8 .\misago\users\apps.py:91
@@ -2292,8 +2313,10 @@ msgstr "Следить"
 #, python-format
 msgid "You are following %(users)s user."
 msgid_plural "You are following %(users)s users."
-msgstr[0] "Вы следите за пользователем - %(users)s."
-msgstr[1] "Вы следите за пользователями - %(users)s."
+msgstr[0] "Вы следите за %(users)s пользователем."
+msgstr[1] "Вы следите за %(users)s пользователями."
+msgstr[2] "Вы следите за %(users)s пользователями."
+msgstr[3] "Вы следите за %(users)s пользователями."
 
 #: .\misago\templates\misago\profile\follows.html:23
 #, python-format
@@ -2301,6 +2324,8 @@ msgid "%(username)s is following %(users)s user."
 msgid_plural "%(username)s is following %(users)s users."
 msgstr[0] "%(username)s следует за %(users)s пользователем."
 msgstr[1] "%(username)s следует за %(users)s пользователями."
+msgstr[2] "%(username)s следует за %(users)s пользователями."
+msgstr[3] "%(username)s следует за %(users)s пользователями."
 
 #: .\misago\templates\misago\profile\follows.html:48
 msgid "You are not following any users."
@@ -2325,7 +2350,9 @@ msgstr "Участник с %(joined_on)s"
 msgid "You have posted %(posts)s message."
 msgid_plural "You have posted %(posts)s messages."
 msgstr[0] "Вы опубликовали %(posts)s сообщение."
-msgstr[1] "Вы опубликовали %(posts)s сообщений."
+msgstr[1] "Вы опубликовали %(posts)s сообщения."
+msgstr[2] "Вы опубликовали %(posts)s сообщений."
+msgstr[3] "Вы опубликовали %(posts)s сообщений."
 
 #: .\misago\templates\misago\profile\posts.html:25
 #, python-format
@@ -2333,6 +2360,8 @@ msgid "%(username)s has posted %(posts)s message."
 msgid_plural "%(username)s has posted %(posts)s messages."
 msgstr[0] "%(username)s опубликовал %(posts)s сообщение."
 msgstr[1] "%(username)s опубликовал %(posts)s сообщений."
+msgstr[2] "%(username)s опубликовал %(posts)s сообщений."
+msgstr[3] "%(username)s опубликовал %(posts)s сообщений."
 
 #: .\misago\templates\misago\profile\posts.html:39
 msgid "You have posted no messages"
@@ -2347,24 +2376,28 @@ msgstr "У %(username)s нет опубликованных сообщений."
 #, python-format
 msgid "You have started %(threads)s thread."
 msgid_plural "You have started %(threads)s threads."
-msgstr[0] "Вы начали %(threads)s тем."
-msgstr[1] "Вы начали %(threads)s темов."
+msgstr[0] "Вы начали %(threads)s тему."
+msgstr[1] "Вы начали %(threads)s темы."
+msgstr[2] "Вы начали %(threads)s тем."
+msgstr[3] "Вы начали %(threads)s тем."
 
 #: .\misago\templates\misago\profile\threads.html:25
 #, python-format
 msgid "%(username)s has started %(threads)s thread."
 msgid_plural "%(username)s has started %(threads)s threads."
-msgstr[0] "%(username)s начали %(threads)s тем."
-msgstr[1] "%(username)s начали %(threads)s темов."
+msgstr[0] "%(username)s начал %(threads)s тему."
+msgstr[1] "%(username)s начал %(threads)s темы."
+msgstr[2] "%(username)s начал  %(threads)s тем."
+msgstr[3] "%(username)s начал %(threads)s тем."
 
 #: .\misago\templates\misago\profile\threads.html:39
 msgid "You have no started threads."
-msgstr "У вас нет начатых темов."
+msgstr "У вас нет начатых тем."
 
 #: .\misago\templates\misago\profile\threads.html:41
 #, python-format
 msgid "%(username)s started no threads."
-msgstr "У %(username)s нет начатых темов."
+msgstr "У %(username)s нет начатых тем."
 
 #: .\misago\templates\misago\profile\username_history.html:5
 #: .\misago\templates\misago\profile\username_history.html:8
@@ -2377,7 +2410,10 @@ msgstr "История имени пользователя"
 msgid "Your username was changed %(changes)s time."
 msgid_plural "Your username was changed %(changes)s times."
 msgstr[0] "Ваше имя пользователя было изменено %(changes)s раз."
-msgstr[1] "Ваше имя пользователя было изменено %(changes)s раз."
+msgstr[1] "Ваше имя пользователя было изменено %(changes)s раза."
+msgstr[2] "Ваше имя пользователя было изменено %(changes)s раз."
+msgstr[3] "Ваше имя пользователя было изменено %(changes)s раз."
+
 
 #: .\misago\templates\misago\profile\username_history.html:23
 #, python-format
@@ -2385,6 +2421,8 @@ msgid "%(username)s's username was changed %(changes)s time."
 msgid_plural "%(username)s's username was changed %(changes)s times."
 msgstr[0] "Имя пользователя %(username)s было изменено %(changes)s раз."
 msgstr[1] "Имя пользователя %(username)s было изменено %(changes)s раз."
+msgstr[2] "Имя пользователя %(username)s было изменено %(changes)s раз."
+msgstr[3] "Имя пользователя %(username)s было изменено %(changes)s раз."
 
 #: .\misago\templates\misago\profile\username_history.html:78
 msgid "Your username was never changed."
@@ -2398,7 +2436,7 @@ msgstr "Имя пользователя %(username)s никогда не изм�
 #: .\misago\templates\misago\search.html:5
 #: .\misago\templates\misago\search.html:8
 msgid "Search site"
-msgstr "Поиск сайта"
+msgstr "Поиск по сайту"
 
 #: .\misago\templates\misago\search.html:45
 msgid "Loading search..."
@@ -2408,86 +2446,88 @@ msgstr "Загрузка поиска..."
 #, python-format
 msgid "There is %(more)s more post in this thread."
 msgid_plural "There are %(more)s more posts in this thread."
-msgstr[0] "В этом теме %(more)s публикация."
-msgstr[1] "В этом теме %(more)s публикаций."
+msgstr[0] "В этом теме не больше %(more)s публикации."
+msgstr[1] "В этом теме не больше %(more)s публикаций."
+msgstr[2] "В этом теме не больше %(more)s публикаций."
+msgstr[3] "В этом теме не больше %(more)s публикаций."
 
 #: .\misago\templates\misago\thread\paginator.html:47
 msgid "There are no more posts in this thread."
-msgstr "В этом теме нет публикаций."
+msgstr "В этой теме нет публикаций."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:48
 #, python-format
 msgid "Thread title has been changed from %(old_title)s."
-msgstr "Заголовок тема был изменён с %(old_title)s."
+msgstr "Заголовок темы был изменён с %(old_title)s."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:52
 msgid "Thread has been pinned globally."
-msgstr "тем был прикреплён глобально."
+msgstr "Тема был прикреплёна глобально."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:54
 msgid "Thread has been pinned locally."
-msgstr "тем был прикреплён локально."
+msgstr "Тема был прикреплёна локально."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:56
 msgid "Thread has been unpinned."
-msgstr "тем был откреплён."
+msgstr "Тема была откреплёна."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:61
 #, python-format
 msgid "Thread has been moved from %(from_category)s."
-msgstr "тем был перемешён из %(from_category)s."
+msgstr "Тема была перемещена из %(from_category)s."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:68
 #, python-format
 msgid "The %(merged_thread)s thread has been merged into this thread."
-msgstr "тем %(merged_thread)s был объединён в этот тем."
+msgstr "Тема %(merged_thread)s была объединёна в эту тему."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:72
 msgid "Thread has been approved."
-msgstr "тем был одобрен."
+msgstr "Тема была одобрена."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:74
 msgid "Thread has been opened."
-msgstr "тем был открыт."
+msgstr "Тема была открыта."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:76
 msgid "Thread has been closed."
-msgstr "тем был закрыт."
+msgstr "Тема была закрыта."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:78
 msgid "Thread has been revealed."
-msgstr "тем был обнаружен."
+msgstr "Тема была обнаружена."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:80
 msgid "Thread has been made hidden."
-msgstr "тем был скрыт."
+msgstr "Тема была скрыта."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:82
 msgid "Took thread over."
-msgstr "тем был захвачен."
+msgstr "Тема была захвачена."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:84
 msgid "Owner has left thread. This thread is now closed."
-msgstr "Владелец покинул тем. Этот тем сейчас закрыт."
+msgstr "Владелец покинул тему. Этот тема сейчас закрыта."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:86
 msgid "Participant has left thread."
-msgstr "Участник покинул тем."
+msgstr "Участник покинул тему."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:91
 #, python-format
 msgid "Changed thread owner to %(user)s."
-msgstr "Изменился владелец тема - %(user)s."
+msgstr "Изменился владелец темы — %(user)s."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:98
 #, python-format
 msgid "Added %(user)s to thread."
-msgstr "%(user)s добавлен в тем."
+msgstr "%(user)s добавлен в тему."
 
 #: .\misago\templates\misago\thread\posts\event\index.html:105
 #, python-format
 msgid "Removed %(user)s from thread."
-msgstr "%(user)s удалён из тема."
+msgstr "%(user)s удалён из темы."
 
 #: .\misago\templates\misago\thread\posts\event\info.html:12
 #: .\misago\templates\misago\thread\posts\post\body-hidden.html:12
@@ -2507,7 +2547,7 @@ msgstr "IP записан"
 #: .\misago\templates\misago\thread\posts\post\attachments.html:33
 #, python-format
 msgid "%(filetype)s, %(size)s, uploaded by %(uploader)s on %(uploaded_on)s."
-msgstr "%(filetype)s, %(size)s, загруженны %(uploader)s %(uploaded_on)s."
+msgstr "%(filetype)s, %(size)s, загружены %(uploader)s %(uploaded_on)s."
 
 #: .\misago\templates\misago\thread\posts\post\body-hidden.html:3
 msgid "This post is hidden. You cannot not see its contents."
@@ -2523,7 +2563,7 @@ msgid ""
 "author may see its contents."
 msgstr ""
 "Эта публикация не одобрена. Только пользователи с разрешением "
-" и автор могут одобрять пуликации и смотреть содержимое темы."
+" и автор могут одобрять публикации  и смотреть содержимое темы."
 
 #: .\misago\templates\misago\thread\posts\post\flags.html:17
 msgid "This post is protected. Only moderators may change it."
@@ -2563,12 +2603,12 @@ msgstr "Удалённый пользователь"
 #: .\misago\templates\misago\thread\stats.html:11
 #: .\misago\templates\misago\threadslist\thread.html:21
 msgid "Pinned globally"
-msgstr "Прикреплено глобально"
+msgstr "Прикреплена глобально"
 
 #: .\misago\templates\misago\thread\stats.html:20
 #: .\misago\templates\misago\threadslist\thread.html:30
 msgid "Pinned locally"
-msgstr "Прикреплено локально"
+msgstr "Прикреплена локально"
 
 #: .\misago\templates\misago\thread\stats.html:30
 #: .\misago\templates\misago\thread\toolbar-top.html:14
@@ -2580,7 +2620,7 @@ msgstr "Откреплено"
 #: .\misago\templates\misago\thread\stats.html:39
 #: .\misago\templates\misago\threadslist\thread.html:49
 msgid "Unapproved posts"
-msgstr "Открепленые публикации"
+msgstr "Открепленные  публикации"
 
 #: .\misago\templates\misago\thread\stats.html:49
 #: .\misago\templates\misago\threadslist\thread.html:109
@@ -2598,6 +2638,8 @@ msgstr "Закрытые"
 msgid "%(replies)s reply"
 msgid_plural "%(replies)s replies"
 msgstr[0] "%(replies)s ответ"
+msgstr[1] "%(replies)s ответа"
+msgstr[1] "%(replies)s ответов"
 msgstr[1] "%(replies)s ответов"
 
 #: .\misago\templates\misago\thread\stats.html:83
@@ -2615,7 +2657,9 @@ msgstr "Начато %(starter)s %(started_on)s в категории - %(catego
 msgid "%(replies)s reply, last one from %(last_post_on)s."
 msgid_plural "%(replies)s replies, last one from %(last_post_on)s."
 msgstr[0] "%(replies)s ответ, последний от %(last_post_on)s."
-msgstr[1] "%(replies)s ответы, последний от %(last_post_on)s."
+msgstr[1] "%(replies)s ответа, последний от %(last_post_on)s."
+msgstr[2] "%(replies)s ответов, последний от %(last_post_on)s."
+msgstr[3] "%(replies)s ответов, последний от %(last_post_on)s."
 
 #: .\misago\templates\misago\thread\toolbar-top.html:6
 msgid "Go to first new post"
