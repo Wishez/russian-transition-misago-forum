@@ -3119,15 +3119,15 @@ msgstr "У вас нет разрешения объединять этот те
 
 #: .\misago\threads\api\threadendpoints\merge.py:37
 msgid "You can't merge thread with itself."
-msgstr "Вы не можете объединять тем с самим собой."
+msgstr "Вы не можете объединить тему с самой собой."
 
 #: .\misago\threads\api\threadendpoints\merge.py:42
 msgid "You can't merge this thread into thread you can't reply."
-msgstr "Вы не можете объединять тем внутри тема, в котором вы не можете ответить."
+msgstr "Вы не можете объединять тем внутри темы, в которой вы не можете ответить."
 
 #: .\misago\threads\api\threadendpoints\merge.py:45
 msgid "You don't have permission to merge this thread with current one."
-msgstr "У вас нет разрешения объединять этот тем с текущим."
+msgstr "У вас нет разрешения объединять этот тему с текущей."
 
 #: .\misago\threads\api\threadendpoints\merge.py:75
 #: .\misago\threads\api\threadendpoints\merge.py:127
@@ -3147,7 +3147,9 @@ msgstr "Вы должны выбрать по крайне мере две те�
 msgid "No more than %(limit)s thread can be merged at single time."
 msgid_plural "No more than %(limit)s threads can be merged at single time."
 msgstr[0] "Не больше чем %(limit)s тема может быть объединена в одно время."
-msgstr[1] "Не больше чем %(limit)s тем может быть объединена в одно время."
+msgstr[1] "Не больше чем %(limit)s темы могут быть объединены в одно время."
+msgstr[2] "Не больше чем %(limit)s тем могут быть объединены в одно время."
+msgstr[3] "Не больше чем %(limit)s тем могут быть объединены в одно время."
 
 #: .\misago\threads\api\threadendpoints\merge.py:169
 msgid "One or more threads to merge could not be found."
@@ -3163,7 +3165,7 @@ msgstr "У вас нет разрешения изменять размер эт
 
 #: .\misago\threads\api\threadendpoints\patch.py:71
 msgid "You don't have permission to pin this thread globally."
-msgstr "У вас нет разрешения глобально прикреплять эту тему."
+msgstr "У вас нет разрешения прикреплять эту тему глобально."
 
 #: .\misago\threads\api\threadendpoints\patch.py:85
 msgid "You don't have permission to move this thread."
@@ -3240,7 +3242,7 @@ msgstr "У вас нет разрешения удалять эту тему."
 
 #: .\misago\threads\api\threads.py:132
 msgid "You can't start private threads."
-msgstr "Вы не можете начать приватные темы.."
+msgstr "Вы не можете начать приватные темы."
 
 #: .\misago\threads\forms.py:8
 msgid "All types"
@@ -3298,22 +3300,22 @@ msgstr "Лимит скачивания в"
 msgid ""
 "List of comma separated file extensions associated with this attachment type."
 msgstr ""
-"Список расширений файлов разделённых запятой ассоциированны с типом этого прикрепления."
+"Список расширений файлов разделённых запятой, ассоциированных с типом этого прикрепления."
 
 #: .\misago\threads\forms.py:63
 msgid ""
 "Optional list of comma separated mime types associated with this attachment "
 "type."
 msgstr ""
-"Оциональный спсок mime-типов разделённых запятой ассоциированы с типом этого прикрепления."
+"Дополнительный список mime-типов разделённых запятой ассоциированы с типом этого прикрепления."
 
 #: .\misago\threads\forms.py:66
 msgid ""
 "Maximum allowed uploaded file size for this type, in kb. May be overriden "
 "via user permission."
 msgstr ""
-"Максимальн позволенный размер загружаемого размера файла для этого типа указывается в kb. "
-"Может быть преопределён через разрешение пользователя."
+"Максимально  позволенный размер загружаемого размера файла для этого типа указывается в kb. "
+"Может быть переопределён  через разрешение пользователя."
 
 #: .\misago\threads\forms.py:69
 msgid "Controls this attachment type availability on your site."
@@ -3327,7 +3329,7 @@ msgid ""
 "upload attachments of this type."
 msgstr ""
 "Если вы желаете ограничить вариант загрузки файлов этого типа пользователям с "
-"указанными ролями, выберете их в этом списке. Не выбрав никакую из ролей "
+"указанными ролями, выберете их в этом списке. Не выбрав никакую из ролей, "
 "вы позволите пользователям с разрешением загружать прикрепления этого типа."
 
 
@@ -3339,7 +3341,7 @@ msgid ""
 "download attachments of this type."
 msgstr ""
 "Если вы желаете ограничить вариант скачивания файлов этого типа пользователям с "
-"указанными ролями, выберете их в этом списке. Не выбрав никакую из ролей "
+"указанными ролями, выберете их в этом списке. Не выбрав никакую из ролей, "
 "вы позволите пользователям с разрешением скачивать прикрепления этого типа."
 
 #: .\misago\threads\migrations\0002_threads_settings.py:17
@@ -3408,7 +3410,7 @@ msgstr "Позволить только скачивания"
 
 #: .\misago\threads\models\attachmenttype.py:23
 msgid "Disallow both uploading and downloading"
-msgstr "Непозволять загружать и скачивать"
+msgstr "Не позволять загружать и скачивать"
 
 #: .\misago\threads\models\thread.py:18
 msgid "Don't pin thread"
@@ -3428,11 +3430,11 @@ msgstr "Вы не можете сделать оригинальное отоб�
 
 #: .\misago\threads\moderation\posts.py:59
 msgid "You can't hide original post without hiding thread."
-msgstr "Вы не можете скрыть оригинальную публикацию без скрывание темы."
+msgstr "Вы не можете скрыть оригинальную публикацию без сокрытия темы."
 
 #: .\misago\threads\moderation\posts.py:84
 msgid "You can't delete original post without deleting thread."
-msgstr "Вы не можете удалить оригинальную публикацию без удаления треда."
+msgstr "Вы не можете удалить оригинальную публикацию без удаления темы."
 
 #: .\misago\threads\participants.py:143
 #, python-format
@@ -3467,7 +3469,7 @@ msgstr "Опросы"
 
 #: .\misago\threads\permissions\polls.py:32
 msgid "Can start polls"
-msgstr "Можно начать опросы"
+msgstr "Можно начинать опросы"
 
 #: .\misago\threads\permissions\polls.py:37
 #: .\misago\threads\permissions\threads.py:103
@@ -3500,11 +3502,11 @@ msgstr "Можно удалять опросы"
 
 #: .\misago\threads\permissions\polls.py:62
 msgid "Time limit for own polls edits, in minutes"
-msgstr "Временное ограничения для правок сових опросов, в минутах"
+msgstr "Временное ограничения для правок своих опросов, в минутах"
 
 #: .\misago\threads\permissions\polls.py:63
 msgid "Enter 0 to don't limit time for editing own polls."
-msgstr "Введите 0, чтобы не ограничвать время для правок свои опросов."
+msgstr "Введите 0, чтобы не ограничивать  время для правок свои опросов."
 
 #: .\misago\threads\permissions\polls.py:68
 msgid "Can always see polls voters"
@@ -3521,19 +3523,19 @@ msgstr "Вы должны войти, чтобы начать опросы."
 
 #: .\misago\threads\permissions\polls.py:132
 msgid "You can't start polls."
-msgstr "Вы не можете начать опросы."
+msgstr "Вы не можете начинать опросы."
 
 #: .\misago\threads\permissions\polls.py:134
 msgid "You can't start polls in other users threads."
-msgstr "Вы не можете начать опросы в темах других пользователей."
+msgstr "Вы не можете начинать опросы в темах других пользователей."
 
 #: .\misago\threads\permissions\polls.py:138
 msgid "This category is closed. You can't start polls in it."
-msgstr "Эта категория закрыта. Вы не можете начать опросы в ней."
+msgstr "Эта категория закрыта. Вы не можете начинать опросы в ней."
 
 #: .\misago\threads\permissions\polls.py:140
 msgid "This thread is closed. You can't start polls in it."
-msgstr "Эта тема закрыт. Вы не можете начать опросы в ней."
+msgstr "Эта тема закрыта. Вы не можете начинать опросы в ней."
 
 #: .\misago\threads\permissions\polls.py:148
 msgid "You have to sign in to edit polls."
@@ -3545,14 +3547,16 @@ msgstr "Вы не можете редактировать опросы."
 
 #: .\misago\threads\permissions\polls.py:161
 msgid "You can't edit other users polls in this category."
-msgstr "Вы не можете редатировать опросы других пользователей в этой категории."
+msgstr "Вы не можете редактировать  опросы других пользователей в этой категории."
 
 #: .\misago\threads\permissions\polls.py:164
 #, python-format
 msgid "You can't edit polls that are older than %(minutes)s minute."
 msgid_plural "You can't edit polls that are older than %(minutes)s minutes."
-msgstr[0] "Вы не можете редатировать опросы, которые старше чем %(minutes)s минута."
-msgstr[1] "Вы не можете редатировать опросы, которые старше чем %(minutes)s минут."
+msgstr[0] "Вы не можете редактировать опросы, которые старше чем %(minutes)s минута."
+msgstr[1] "Вы не можете редактировать опросы, которые старше чем %(minutes)s минуты."
+msgstr[2] "Вы не можете редактировать опросы, которые старше чем %(minutes)s минут."
+msgstr[3] "Вы не можете редактировать опросы, которые старше чем %(minutes)s минут."
 
 #: .\misago\threads\permissions\polls.py:171
 msgid "This poll is over. You can't edit it."
@@ -3560,7 +3564,7 @@ msgstr "Этот опрос окончен. Вы не можете редакт�
 
 #: .\misago\threads\permissions\polls.py:175
 msgid "This category is closed. You can't edit polls in it."
-msgstr "Эта категория закрыта. Вы не можете редактировать опрсы в ней."
+msgstr "Эта категория закрыта. Вы не можете редактировать опросы в ней."
 
 #: .\misago\threads\permissions\polls.py:177
 msgid "This thread is closed. You can't edit polls in it."
@@ -3572,7 +3576,7 @@ msgstr "Вы должны войти, чтобы удалять опросы."
 
 #: .\misago\threads\permissions\polls.py:194
 msgid "You can't delete polls."
-msgstr "Вы не можете удалить опросы."
+msgstr "Вы не можете удалять опросы."
 
 #: .\misago\threads\permissions\polls.py:198
 msgid "You can't delete other users polls in this category."
@@ -3583,7 +3587,9 @@ msgstr "Вы не можете удалять опросы других поль
 msgid "You can't delete polls that are older than %(minutes)s minute."
 msgid_plural "You can't delete polls that are older than %(minutes)s minutes."
 msgstr[0] "Вы не можете удалять опросы, которые старше чем %(minutes)s минута."
-msgstr[1] "Вы не можете удалять опросы, которые старше чем %(minutes)s минут."
+msgstr[1] "Вы не можете удалять опросы, которые старше чем %(minutes)s минуты."
+msgstr[2] "Вы не можете удалять опросы, которые старше чем %(minutes)s минут."
+msgstr[3] "Вы не можете удалять опросы, которые старше чем %(minutes)s минут."
 
 #: .\misago\threads\permissions\polls.py:207
 msgid "This poll is over. You can't delete it."
@@ -3619,7 +3625,7 @@ msgstr "Эта тема закрыта. Вы не можете голосова�
 
 #: .\misago\threads\permissions\polls.py:246
 msgid "You dont have permission to this poll's voters."
-msgstr "У вас нет разрешения к изберателям этого опроса."
+msgstr "У вас нет разрешения к избирателям этого опроса."
 
 #: .\misago\threads\permissions\privatethreads.py:36
 msgid "Can use private threads"
@@ -3639,26 +3645,26 @@ msgstr "Введите 0, чтобы не ограничивать число у
 
 #: .\misago\threads\permissions\privatethreads.py:45
 msgid "Can add everyone to threads"
-msgstr "Можно добавлять в тему кого угдно"
+msgstr "Можно добавлять в тему кого угодно"
 
 #: .\misago\threads\permissions\privatethreads.py:46
 msgid "Allows user to add users that are blocking him to private threads."
-msgstr "Разрешает пользователю добавлять пользователей, которые заблокированны им, в приватный темы."
+msgstr "Разрешает пользователю добавлять пользователей, которые заблокированы им, в приватный темы."
 #: .\misago\threads\permissions\privatethreads.py:49
 msgid "Can report private threads"
-msgstr "Можно сообщать о приватных темах"
+msgstr "Можно отчитывать приватные темы"
 
 #: .\misago\threads\permissions\privatethreads.py:51
 msgid ""
 "Allows user to report private threads they are participating in, making them "
 "accessible to moderators."
 msgstr ""
-"Позволяет пользователю сообщать о приватных темах, в которых они участвуют, создавая их "
+"Позволяет пользователю отчитывать приватные темы, в которых они участвуют, создавая их "
 "доступными модераторам."
 
 #: .\misago\threads\permissions\privatethreads.py:56
 msgid "Can moderate private threads"
-msgstr "Можно модерировать приватные темы"
+msgstr "Можно управлять приватными темами"
 
 #: .\misago\threads\permissions\privatethreads.py:58
 msgid ""
@@ -3682,7 +3688,7 @@ msgstr "Только владелец темы и модераторы могу�
 
 #: .\misago\threads\permissions\privatethreads.py:206
 msgid "Only moderators can change closed threads owners."
-msgstr "Только модераторы могут менять закрытые треды владельцев."
+msgstr "Только модераторы могут менять закрытые темы владельцев."
 
 #: .\misago\threads\permissions\privatethreads.py:217
 msgid "You have to be thread owner to add new participants to it."
@@ -3721,11 +3727,11 @@ msgstr "%(user)s не позволяет давать приглашения в 
 #: .\misago\threads\permissions\privatethreads.py:269
 #, python-format
 msgid "%(user)s limits invitations to private threads to followed users."
-msgstr "%(user)s ограничил приглашения в приватные треды последующим пользователям."
+msgstr "%(user)s ограничил приглашения в приватные темы последующим пользователям."
 
 #: .\misago\threads\permissions\threads.py:54
 msgid "Can see unapproved content list"
-msgstr "Можно увидеть одобренное содержимое списка"
+msgstr "Можно увидеть список одобренного содержимого"
 
 #: .\misago\threads\permissions\threads.py:56
 msgid ""
@@ -3758,11 +3764,11 @@ msgstr ""
 
 #: .\misago\threads\permissions\threads.py:76
 msgid "Can omit flood protection"
-msgstr "Можно опустить защиту от флуда "
+msgstr "Можно опустить защиту от изобилия сообщений"
 
 #: .\misago\threads\permissions\threads.py:77
 msgid "Allows posting more frequently than flood protection would."
-msgstr "Позволяет публиковать чаще, чем позволяет защита от флуда."
+msgstr "Позволяет публиковать чаще, чем позволяет защита от изобилия сообщений."
 
 #: .\misago\threads\permissions\threads.py:85
 msgid "Can see threads"
@@ -3776,7 +3782,7 @@ msgstr "Начатые темы"
 
 #: .\misago\threads\permissions\threads.py:94
 msgid "Can start threads"
-msgstr "Можно начать темы"
+msgstr "Можно начинать темы"
 
 #: .\misago\threads\permissions\threads.py:95
 msgid "Can reply to threads"
@@ -3894,11 +3900,11 @@ msgstr "Только число"
 
 #: .\misago\threads\permissions\threads.py:197
 msgid "Number and list of likers"
-msgstr "Число и список одобревших"
+msgstr "Число и список одобривших"
 
 #: .\misago\threads\permissions\threads.py:201
 msgid "Can like posts"
-msgstr "Можно одобрить публикации"
+msgstr "Можно одобрять публикации"
 
 #: .\misago\threads\permissions\threads.py:202
 msgid "Only users with this permission to see likes can like posts."
@@ -3930,7 +3936,7 @@ msgstr "Можно одобрить содержимое"
 
 #: .\misago\threads\permissions\threads.py:215
 msgid "Will be able to see and approve unapproved content."
-msgstr "Будет способен просматривать и одобрать неодобренное содержимое."
+msgstr "Будет способен просматривать и одобрять не одобренное содержимое."
 
 #: .\misago\threads\permissions\threads.py:217
 msgid "Can report posts"
@@ -3966,7 +3972,7 @@ msgstr "Требуется одобрение правок"
 
 #: .\misago\threads\permissions\threads.py:548
 msgid "You have to sign in to start threads."
-msgstr "Вы должны войти, чтобы начать темы."
+msgstr "Вы должны войти, чтобы начинать темы."
 
 #: .\misago\threads\permissions\threads.py:558
 msgid "This category is closed. You can't start new threads in it."
@@ -4016,8 +4022,10 @@ msgstr "Вы не можете редактировать закрытые те�
 #, python-format
 msgid "You can't edit threads that are older than %(minutes)s minute."
 msgid_plural "You can't edit threads that are older than %(minutes)s minutes."
-msgstr[0] "Вы не можете редактировать треды, которые старше чем %(minutes)s минута."
-msgstr[1] "Вы не можете редактировать треды, которые старше чем %(minutes)s минут."
+msgstr[0] "Вы не можете редактировать темы, которые старше чем %(minutes)s минута."
+msgstr[1] "Вы не можете редактировать темы, которые старше чем %(minutes)s минуты."
+msgstr[1] "Вы не можете редактировать темы, которые старше чем %(minutes)s минут."
+msgstr[1] "Вы не можете редактировать темы, которые старше чем %(minutes)s минут."
 
 #: .\misago\threads\permissions\threads.py:650
 msgid "You have to sign in to edit posts."
@@ -4025,11 +4033,11 @@ msgstr "Вы должны войти, чтобы редактировать пу
 
 #: .\misago\threads\permissions\threads.py:653
 msgid "Events can't be edited."
-msgstr "События могут быть редактируемы."
+msgstr "События не могут редактироваться."
 
 #: .\misago\threads\permissions\threads.py:658
 msgid "You can't edit posts in this category."
-msgstr "Вы не можете отредактировать публикации в этой категории."
+msgstr "Вы не можете редактировать публикации в этой категории."
 
 #: .\misago\threads\permissions\threads.py:662
 msgid "This category is closed. You can't edit posts in it."
